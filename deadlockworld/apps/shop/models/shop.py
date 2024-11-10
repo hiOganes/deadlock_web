@@ -16,6 +16,9 @@ class Shop(models.Model):
         )
     category = models.CharField(max_length=255)
     activity = models.BooleanField(default=False, blank=True)
+    create_date = models.DateTimeField(auto_now_add=True)
+    update_date = models.DateTimeField(auto_now=True)
+    slug = models.CharField(max_length=255)
 
     class Meta:
         ordering = ['price']

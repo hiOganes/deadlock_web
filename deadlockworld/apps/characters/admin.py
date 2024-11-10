@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+# Temporary impors
+from apps.characters.models.characters import Characters
+from apps.characters.models.spells import Spells

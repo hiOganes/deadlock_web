@@ -1,3 +1,4 @@
 from django.contrib import admin
 
-# Register your models here.
+# Temporary impors
+from apps.shop.models.shop import Shop
