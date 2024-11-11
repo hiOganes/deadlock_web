@@ -1,0 +1,2608 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "characters",
+    "model": "characters"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "characters",
+    "model": "spells"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "shop",
+    "model": "shop"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "map",
+    "model": "map"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 1,
+  "fields": {
+    "name": "abrams",
+    "image": "characters/2024/11/09/abrams.webp",
+    "story": "Hard hitting, hard headed, and hard drinking; Detective Abrams has been a fixture on the New York investigating scene for years. From stolen art, to missing persons, to ritual murders; Abrams didn't just take any case that came across his desk... he solved them. But his days of following cheating spouses came to an end the day he opened his office door and found The Tome sitting on his desk.No instruction was left for him save for a brief note scrawled in onyx blood that read \"Don't let them have it\". Abrams hasn't figured out where the thing came from; but seeing as his home has been broken into, his office tossed on 3 different occasions, and his car firebombed he has a vested interest in figuring out what the hell is going on.",
+    "dps": 63,
+    "bullet_damage": "4.68",
+    "bullet_per_second": "1.67",
+    "ammo": 9,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 570,
+    "health_regen": 1,
+    "stamina": 3,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "abrams"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 2,
+  "fields": {
+    "name": "bebop",
+    "image": "characters/2024/11/09/bebop.webp",
+    "story": "Forged by the hands of a widowed junk yard attendant; Bebop was more than just some scrap golem laborer... he was the son she couldn't have. Together they would work in the iron yard during the day, and listen to jazz at night. But now, Bebop's creator has fallen ill and while Miss Shelly wouldn't approve of the activities that Bebop does at night to pay for her medicine, what she doesn't know can't hurt her.",
+    "dps": 66,
+    "bullet_damage": "5.30",
+    "bullet_per_second": "12.50",
+    "ammo": 66,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 650,
+    "health_regen": 3,
+    "stamina": 3,
+    "move_speed": "6.20",
+    "sprint_speed": 3,
+    "bullet_resist": 10,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "bebop"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 3,
+  "fields": {
+    "name": "dynamo",
+    "image": "characters/2024/11/09/dynamo.webp",
+    "story": "As a Scientist, Professor Dynamo always had an inquisitive mind. So when a rift in space and time opened up in central park he was first on the scene to investigate  and while he expected such a majestic sight to be life changing, he was thinking more in a metaphorical way as opposed to having his body atomized and reduced to a tiny dying star. But while his body is gone, his spirit and lust for knowledge lives on. A tenured professor at Columbia College, Dynamo looks to learn more about his condition while maintaining his class load, after all; he has future minds to inspire",
+    "dps": 52,
+    "bullet_damage": "15.00",
+    "bullet_per_second": "4.00",
+    "ammo": 18,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 650,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "dynamo"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 4,
+  "fields": {
+    "name": "grey talon",
+    "image": "characters/2024/11/09/grey_talon.webp",
+    "story": "A founding member of \"The Baxter Society\", Wesley Grey Talon spent close to 40 years hunting monsters that preyed on man before finally deciding to find a replacement and lay down his bow. Grey Talons duties had meant that he never spent much time with his wife and kid, and now that his son had started a family of his own he realized that this was his last chance to reconnect with the people he loved. Retirement suited Wesley. He made up for lost time with his wife. He doted on his grandkids. He cooked dinner for the whole family every Wednesday. He was happy. Then he got the call. The authorities claimed that it was a freak accident... that the fire consumed his sons house before anyone got a chance to escape. But Wesley knew better. His sons wife was Ixian... she could snuff out flame with a thought. If their bodies were found burned they had to be dead long before there was a fire. And so Grey Talon has picked up his bow once more, and when he finds whos responsible there will be a bloody reckoning.",
+    "dps": 55,
+    "bullet_damage": "27.00",
+    "bullet_per_second": "2.50",
+    "ammo": 17,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 4,
+    "move_speed": "6.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "grey_talon"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 5,
+  "fields": {
+    "name": "haze",
+    "image": "characters/2024/11/09/haze.webp",
+    "story": "The Occult Security and Investigation Commission is a black box government organization that makes the CIA look transparent. It falls on the men, women, and entities of the OSIC to keep the country safe from sinister forces that are beyond the capabilities of local law enforcement. As a member of the notorious Sandman Division, Haze is routinely tasked with infiltrating the dreams of persons of interest, to assess their threat level, and if needed... to put them to sleep.",
+    "dps": 53,
+    "bullet_damage": "5.60",
+    "bullet_per_second": "10.00",
+    "ammo": 25,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 500,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "8.20",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "haze"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 6,
+  "fields": {
+    "name": "infernus",
+    "image": "characters/2024/11/09/infernus.webp",
+    "story": "Like most teenagers; Infernus was wild, rebellious, and impetuous. Unlike most teenagers, Infernus was a creature from another planet and had a supernatural mastery over fire. Needless to say: his youth was filled with no small amount of arson, murder, and evidence disposal. But that was then. Now an adult, Infernus has mellowed out considerably. Hes happy working at a bar with good live music, and talking to interesting people. That being said when someone at the bar gets belligerent or violent, hes not afraid to dust off the skills he once honed.",
+    "dps": 66,
+    "bullet_damage": "6.60",
+    "bullet_per_second": "10.00",
+    "ammo": 27,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 600,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "infernus"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 7,
+  "fields": {
+    "name": "ivy",
+    "image": "characters/2024/11/09/ivy.webp",
+    "story": "The gargoyle didnt know what was happening when it sprang to life... just that a big human and a small human were being hurt. And so the gargoyle leapt to action, sending the attackers fleeing in horror. The small human said thank you and asked the gargoyles name. The gargoyle didnt have one. And so the small human said, \"Im going to call you Ivy.\" The gargoyle, being covered in ivy at the time, thought it was a bit obvious, but decided to go along with it for the small humans sake. The humans asked if Ivy would come home with them so they could show their appreciation, and so Ivy walked with them. That night she learned much. The family were called The Arroyo's. The little one, Sophia. Mofongo is what they called a plate of deliciousness. But most importantly, she learned that the people attacking them were called \"The Mendoza Syndicate\", and they were hurting peoplenice people like The Arroyo's. 18 years have passed since the day the Arroyo's took Ivy home... and during that she made it her mission to dismantle the Mendoza Syndicate and free Spanish Harlem from its grasp. However the thing about dedicating your life to a single pursuit for nearly 2 decades is that you dont really know what to do once you achieve it. For the first time in her life, Ivy is prepared to venture outside of Spanish Harlem and see what the world has to offer beyond vigilante justice.",
+    "dps": 64,
+    "bullet_damage": "5.00",
+    "bullet_per_second": "14.30",
+    "ammo": 33,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 4,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "ivy"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 8,
+  "fields": {
+    "name": "kelvin",
+    "image": "characters/2024/11/09/kelvin.webp",
+    "story": "A famed adventuring scientist, Kelvin made it his lifes mission to explore and understand the unknowable. So naturally when rumors surfaced regarding an 8th astral gate hidden in the arctic, Kelvin couldnt build an expedition team fast enough. Assembling the brightest minds of his generation, Kelvin and his team set forth with much fanfare. They never returned. A year and a half later the frozen body of Kelvin was found by a fishing trawler, his corpse clutching a rock etched with glowing runes. The crew chipped away at the ice, looking to get a closer look at the body and were shocked when Kelvin opened his eyes. They checked his vitals there was no pulse. They sought to bandage his open wounds there was no blood. And yet, impossibly, Kelvin was \"alive\". Having no memory of what happened on the expedition, Kelvin is looking for answers.",
+    "dps": 83,
+    "bullet_damage": "21.00",
+    "bullet_per_second": "4.00",
+    "ammo": 15,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 600,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 10,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "kelvin"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 9,
+  "fields": {
+    "name": "lady geist",
+    "image": "characters/2024/11/09/lady_geist.webp",
+    "story": "Once, Lady Jeanne Geist was the toast of the town. But as time passed and her beauty faded she found herself further and further from her glory days in High Society until finally she was nothing more than a frail woman in a nursing home, telling stories of a glorious past. And thats when Oathkeeper revealed himself. A powerful spirit from another plane, Oathkeeper offered her a path to reclaim her past glories he could restore her youth; all she had to do was drain the essence of the living to sustain herself. Geist was torn. Obviously murder was ghoulish business, and undoubtedly Oathkeeper was not an entity that could be trusted but still, the thought of having a second chance of reliving her youth was too good to pass up. And so she concocted a plan; after making a pact with Oathkeeper she would bind and ward him, limiting his influence and pull over her. Oathkeeper would still get fed; but on her terms, not his. However, as years have turned to decades; the strength of the Ward has weakened, and Oathkeeper hungers more than he ever has in the past...",
+    "dps": 55,
+    "bullet_damage": "25.50",
+    "bullet_per_second": "2.22",
+    "ammo": 13,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 650,
+    "health_regen": 1,
+    "stamina": 3,
+    "move_speed": "6.00",
+    "sprint_speed": 1,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "lady_geist"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 10,
+  "fields": {
+    "name": "lash",
+    "image": "characters/2024/11/09/lash.webp",
+    "story": "Jacob Lash is an asshole.",
+    "dps": 61,
+    "bullet_damage": "9.00",
+    "bullet_per_second": "6.12",
+    "ammo": 29,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 1,
+    "bullet_resist": 0,
+    "spirit_resist": 15,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "lash"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 11,
+  "fields": {
+    "name": "mcGinnis",
+    "image": "characters/2024/11/09/mcGinnis.webp",
+    "story": "Maggie McGinnis always had a knack for building things. At 4 she was using Lincoln Logs to recreate architectural marvels. At 10 she built and rewired a custom light fixture for her parent's anniversary. At 15 she designed a machine that refined the souls of the dead...that last one got a little more attention than the Lincoln Logs. Now the head of Fairfax Industries Military RLORED department, McGinnis spends her time in the machine shop, not in a lab. She's not interested in theory, to her science is magic you can touch.",
+    "dps": 89,
+    "bullet_damage": "7.15",
+    "bullet_per_second": "12.50",
+    "ammo": 66,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 2,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 15,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "mcgennis"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 12,
+  "fields": {
+    "name": "mirage",
+    "image": "characters/2024/11/09/mirage.webp",
+    "story": "The Djinn are one of the more curious groups of people in the modern world. Possessing great power in controlled doses, Djinn are incapable of maintaining corporeal form for longer than 48 minutes without resting within a vessel. As a result, most Djinn employ human bodyguards for transport, protection, and companionship. Mirage is one such bodyguard. Employeed by Djinn ambassador Nashala Dion, Mirage is in New York on a diplomatic mission. It's the hope of the Djinn that they can negotiate with the US government for a sale of part of Wyoming so that they can build a sovereign nation for their people.",
+    "dps": 51,
+    "bullet_damage": "18.00",
+    "bullet_per_second": "2.86",
+    "ammo": 16,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "mirage"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 13,
+  "fields": {
+    "name": "mo & krill",
+    "image": "characters/2024/11/09/mo_and_krill.webp",
+    "story": "Mo and Krill are members of The Tunnel Rats, a group that help facilitate illicit trade and commerce between the boroughs thanks to a network of underground tunnels. But while most denizens the New York underworld respect the work The Rats do, every once in a while a gang tries to exploit the tunnel system for personal vendettas...thats when Mo and Krill step in and remind the city what happens to those who disrespect their hospitality.",
+    "dps": 70,
+    "bullet_damage": "11.50",
+    "bullet_per_second": "6.12",
+    "ammo": 29,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 1,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 8,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "mo_and_krill"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 14,
+  "fields": {
+    "name": "paradox",
+    "image": "characters/2024/11/09/paradox.webp",
+    "story": "Paradox. An artifact of time, and the name of a notorious thieves guild... one that prides themselves on constructing elaborate heists that target the most untouchable of individuals and institutions. What does Paradox do with the countless artifacts, state secrets, and celebrity paternity tests that they have stolen? Put it on display at pop-up museums, so that they can show the world that no one is out of Paradoxs reach. Shrouded in mystery, each member of Paradox dons a mask and takes on the organizations name. They are everywhere. They are nowhere. And if they want something, they are inevitable.",
+    "dps": 57,
+    "bullet_damage": "7.20",
+    "bullet_per_second": "7.94",
+    "ammo": 40,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "6.50",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "paradox"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 15,
+  "fields": {
+    "name": "pocket",
+    "image": "characters/2024/11/09/pocket.webp",
+    "story": "Arin Fairfax, the eldest heir to Fairfax Industries, has been living in hiding for the past 5 years after being shot and left for dead on their 18th birthday. Arin doesnt know who is trying to keep them from taking control of their parents company... but in the avarice fueled vipers nest that is Fairfax Industries it could be anyone. Taking on the name \"Pocket\", Arin desperately wants to keep their true identity a secret not only for their own protection; but because they want to forge their own identity separate from their parents.",
+    "dps": 70,
+    "bullet_damage": "5.00",
+    "bullet_per_second": "2.00",
+    "ammo": 11,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": -15,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "pocket"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 16,
+  "fields": {
+    "name": "seven",
+    "image": "characters/2024/11/09/seven.webp",
+    "story": "When mystic energy awoke on Earth, the world changed anything was possible. But just because anything WAS possible, didn't mean that anything SHOULD be possible. And so the government made rules. Laws. A means for US citizens to enjoy the benefits of the supernatural world in safety. But rules and laws are for lesser men. Men with limitations. Men who were not Seven. There are many rumors about what Seven did to land himself in Lost Whisper, an oubliette for the most dangerous of occultists. But there is no doubt about what happened on the night of his execution. Wards placed by the most powerful ritualists of 7 different nations... wards designed to not just prevent mystical interference with the execution, but to simultaneously obliterate Seven's soul so that it could never be contacted, resurrected, or otherwise be used by someone looking to follow in his footsteps... failed. Onlookers viewed in horror as the strongest mentalist employed by the US Armys head popped like a grape. They screamed as Scotland Yards premiere occult investigator, the one who allegedly captured Seven, crumbled to ash. Sevens body buckled and writhed against his restraints; his skin burning from eldritch electricity... and yet he would not die. He laughed. He laughed as he tore himself free from his bondage. He laughed as his captors cowered in fear. He laughed as he massacred his tormentors. He laughed as he tasted the fresh air that was denied to him for years. And he laughed when he thought about what he was going to do once he reached New York City.",
+    "dps": 70,
+    "bullet_damage": "11.50",
+    "bullet_per_second": "6.12",
+    "ammo": 29,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 3,
+    "stamina": 3,
+    "move_speed": "7.10",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "seven"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 17,
+  "fields": {
+    "name": "shiv",
+    "image": "characters/2024/11/09/shiv.webp",
+    "story": "A loyal member of \"The Baxter Society\", an international order of monster hunters, Shiv travels across North America looking to put down creatures that prey on the living. While his less polished nature and criminal past make some of the more traditional members of the Society wary, no one can deny his effectiveness.",
+    "dps": 60,
+    "bullet_damage": "5.70",
+    "bullet_per_second": "1.90",
+    "ammo": 10,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 600,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "shiv"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 18,
+  "fields": {
+    "name": "vindicta",
+    "image": "characters/2024/11/09/vindicta.webp",
+    "story": "A victim of John Hathorne during the Salem Witch Trials, Vindicta got a second chance of life when her spirit was brought back to the mortal plane during the first Maelstrom (the event that introduced the supernatural to the public at large). Waging a one ghost war against the \"The Friends of Humanity\", a neo inquisition formed by Hawthorne's descendants; Vindicta looks to keep the supernatural safe from Hathornes ilk, and she isn't afraid to stack as many bodies as needed to do it.",
+    "dps": 73,
+    "bullet_damage": "13.00",
+    "bullet_per_second": "5.26",
+    "ammo": 22,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 2,
+    "move_speed": "9.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "vindicta"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 19,
+  "fields": {
+    "name": "viscous",
+    "image": "characters/2024/11/09/viscous.webp",
+    "story": "The Bermuda Triangle was never a myth, it was a shadowline nexus deep underneath the Atlantic Ocean. For the most part, the things that escaped this astral gate were benign (like Nessie), but now something dark and predatory hunts the seas... and its denizens are scared to death. One of those inhabitants, a psychic sea anemone, wants to do something about it. Psychically building itself an ectoplasmic goo body so it can survive on the surface, Viscous desperately is trying to summon The Patrons to keep The Deep safe from the adversary that lurks below.",
+    "dps": 70,
+    "bullet_damage": "11.00",
+    "bullet_per_second": "5.00",
+    "ammo": 20,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "viscous"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 20,
+  "fields": {
+    "name": "warden",
+    "image": "characters/2024/11/09/warden.webp",
+    "story": "Most people think the supernatural came into the world 50 years ago. Theyre wrong. Its presence shaped folklore for generations... and as long as there have been people afraid of the shadows, there have been those who dedicated their lives to fighting in them. Coming from a lineage of militant alchemists, Wardens family always trained for the day they would have to stave off a mystic apocalypse... but as time passed the importance of the lessons seemed less and less important. What once was viewed as a sincere warning slowly morphed into being perceived as amusing anecdotes told by their superstitious grandparents. When the portal opened in Central Park, Wardens parents realized not only was everything they were told true, but they were also unprepared. Refusing to let the next generation fall asleep on the job, Warden was trained since birth to be a supernatural killing machine with one purpose: stopping the Patrons from ever entering our world.",
+    "dps": 79,
+    "bullet_damage": "19.80",
+    "bullet_per_second": "4.00",
+    "ammo": 17,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "6.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "warden"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 21,
+  "fields": {
+    "name": "wraith",
+    "image": "characters/2024/11/09/wraith.webp",
+    "story": "The cornerstone of the New York gambling scene, Wraiths organization is about as open a secret as it comes. However, thanks to a non-trivial amount of bribes, shakedowns, and blackmail, Wraith knows that shes above the law.",
+    "dps": 61,
+    "bullet_damage": "5.50",
+    "bullet_per_second": "11.10",
+    "ammo": 52,
+    "light_melee": 63,
+    "heavy_melee": 116,
+    "max_health": 550,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "7.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "wraith"
+  }
+},
+{
+  "model": "characters.characters",
+  "pk": 22,
+  "fields": {
+    "name": "yamato",
+    "image": "characters/2024/11/09/yamato.webp",
+    "story": "Born into a family of crime bosses, Kaori and her brother Yamato always knew they were destined to take over control of the Seventh Moon after their father's death. Together they ran the organization for years, bringing it profit and success, and even planning an expansion into America. The plan was simple: Kaori would remain in Japan to control the country, while Yamato would travel to America to establish an international base. Unfortunately for the siblings, some of their subordinates were not happy about Kaori's plan to take command in Japan. The rebellion was swift and violent. Yamato sacrificed his life to protect Kaori, and Kaori was saved by a handful of loyal members. Together with her subordinates, she managed to escape from Japan to the United States. When Kaori and her group arrived in the United States, they were greeted by a man who was supposed to greet Yamato. He was not familiar with Japanese names and did not know Kaori. \"Yamato.\" Kaori thought about correcting his mistake, but... She decided that the best way to remember her brother was to take on the Yamato name and make his dream come true.",
+    "dps": 70,
+    "bullet_damage": "5.65",
+    "bullet_per_second": "2.50",
+    "ammo": 12,
+    "light_melee": 69,
+    "heavy_melee": 128,
+    "max_health": 500,
+    "health_regen": 2,
+    "stamina": 3,
+    "move_speed": "8.00",
+    "sprint_speed": 0,
+    "bullet_resist": 0,
+    "spirit_resist": 0,
+    "create_date": "2024-11-09T17:11:40.744Z",
+    "update_date": "2024-11-09T17:11:40.744Z",
+    "slug": "yamato"
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 1,
+  "fields": {
+    "title": "siphon life",
+    "description": "Drain health from enemies in front of you while they are in the radius.",
+    "description_image": "spells_description/2024/11/10/abrams/siphon_life.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 1,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/abrams/siphon_life.webp",
+    "slug": "siphon_life",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 2,
+  "fields": {
+    "title": "shoulder charge",
+    "description": "Charge forward, colliding with enemies and dragging them along. Hitting a wall will Stun enemies caught by Abrams. Speed increased after colliding with enemy Heroes.",
+    "description_image": "spells_description/2024/11/10/abrams/abrams/shoulder_charge.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 1,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/shoulder_charge.webp",
+    "slug": "shoulder_charge",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 3,
+  "fields": {
+    "title": "infernal resilience",
+    "description": "Regenerate a portion of incoming damage over time.",
+    "description_image": "spells_description/2024/11/10/abrams/infernal_resilience.jpg",
+    "cooldown": "0.00",
+    "activity": false,
+    "characters": 1,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/abrams/infernal_resilience.webp",
+    "slug": "infernal_resilience",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 4,
+  "fields": {
+    "title": "seismic impact",
+    "description": "Leap high into the air and choose a ground location to crash into. When you hit the ground, all enemies in the radius are damaged and stunned. Press attack to crash down early.",
+    "description_image": "spells_description/2024/11/10/abrams/abrams/seismic_impact.jpg",
+    "cooldown": "159.00",
+    "activity": true,
+    "characters": 1,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/seismic_impact.webp",
+    "slug": "seismic_impact",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 5,
+  "fields": {
+    "title": "exploding uppercut",
+    "description": "Deal Light Melee damage to nearby units and send them flying back, causing area damage where they land. Does not damage allies.",
+    "description_image": "spells_description/2024/11/10/bebop/exploding_uppercut.jpg",
+    "cooldown": "21.00",
+    "activity": true,
+    "characters": 2,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/bebop/uppercut.webp",
+    "slug": "uppercut",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 6,
+  "fields": {
+    "title": "sticky bomb",
+    "description": "Attach a Sticky Bomb to a nearby target that deals explosive damage after a short fuse time. Gain +1% bomb damage for every attach and 5% for every dying hero hurt by Sticky Bomb in the last 12 seconds.",
+    "description_image": "spells_description/2024/11/10/bebop/stichy_bomb.jpg",
+    "cooldown": "18.00",
+    "activity": true,
+    "characters": 2,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/bebop/sticky_bomb.webp",
+    "slug": "sticky_bomb",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 7,
+  "fields": {
+    "title": "hook",
+    "description": "Launch out a hook that grabs and reels in the first enemy hero it hits, dealing damage. Target will be placed where you are facing. Cast using [M3] to target friendly heroes.",
+    "description_image": "spells_description/2024/11/10/bebop/hook.jpg",
+    "cooldown": "23.00",
+    "activity": true,
+    "characters": 2,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/bebop/hook.webp",
+    "slug": "hook",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 8,
+  "fields": {
+    "title": "hyper beam",
+    "description": "Charge up your laser to unleash a powerful torrent of energy that deals damage and slows enemies' movement and dashes. You have slow movement and turn rate for the duration. If activated in the air, you will hover while unleashing the beam.",
+    "description_image": "spells_description/2024/11/10/bebop/hyper_beam.jpg",
+    "cooldown": "130.00",
+    "activity": true,
+    "characters": 2,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/bebop/hyper_beam.webp",
+    "slug": "hyper_beam",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 9,
+  "fields": {
+    "title": "kinetic pulse",
+    "description": "Release an energy pulse that knocks enemies up into the air.",
+    "description_image": "spells_description/2024/11/10/dynamo/kinetic_pulse.jpg",
+    "cooldown": "26.00",
+    "activity": true,
+    "characters": 3,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/dynamo/kinetic_pulse.webp",
+    "slug": "kinetic_pulse",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 10,
+  "fields": {
+    "title": "quantum entanglement",
+    "description": "Dynamo briefly disappears into the void and then reappears a short distance away. On reappearing, your weapon is reloaded and has a fire rate bonus for the next clip (Max 8s). Can be cast with [M3] to also bring nearby allies and give them half fire rate bonus.",
+    "description_image": "spells_description/2024/11/10/dynamo/quantum_entanglement.jpg",
+    "cooldown": "15.00",
+    "activity": true,
+    "characters": 3,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/dynamo/quantum_entanglement.webp",
+    "slug": "quantum_entanglement",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 11,
+  "fields": {
+    "title": "rejuvenating aurora",
+    "description": "While channelling, restore health over time to you and any allies nearby.",
+    "description_image": "spells_description/2024/11/10/dynamo/rejuvenating_aurora.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 3,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/dynamo/rej_aurora.webp",
+    "slug": "rej_aurora",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 12,
+  "fields": {
+    "title": "singularity",
+    "description": "Create a singularity in your hands that pulls in nearby enemies and damages them. Once it's finished, enemies get knocked into the air.",
+    "description_image": "spells_description/2024/11/10/dynamo/singularity.jpg",
+    "cooldown": "191.00",
+    "activity": true,
+    "characters": 3,
+    "create_date": "2024-11-10T16:55:05.261Z",
+    "update_date": "2024-11-10T16:55:05.261Z",
+    "image": "spells/2024/11/10/dynamo/singularity.webp",
+    "slug": "singularity",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 13,
+  "fields": {
+    "title": "charged shot",
+    "description": "Charge up a powerful shot that pierces through enemies. Hold [1] or [LMB] to hold the shot.",
+    "description_image": "spells_description/2024/11/10/grey_talon/charged_shot.jpg",
+    "cooldown": "17.00",
+    "activity": true,
+    "characters": 4,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/grey_talon/charged_shot.webp",
+    "slug": "charged_shot",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 14,
+  "fields": {
+    "title": "rain of arrows",
+    "description": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain Weapon Damage and multishot on your weapon. Press [SPACE] to cancel the glide. Can be alternate-casted to remain near the ground.",
+    "description_image": "spells_description/2024/11/10/grey_talon/rain_of_arrows.jpg",
+    "cooldown": "35.00",
+    "activity": true,
+    "characters": 4,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/grey_talon/rain_of_arrows.webp",
+    "slug": "rain_of_arrows",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 15,
+  "fields": {
+    "title": "immobilizing trap",
+    "description": "Throw out a trap that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, immobilizing and then slowing them.",
+    "description_image": "spells_description/2024/11/10/grey_talon/immobilizing_trap.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 4,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/grey_talon/immobilizing_trap.webp",
+    "slug": "immobilizing_trap",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 16,
+  "fields": {
+    "title": "guided owl",
+    "description": "After 1.5s cast time, launch a spirit owl that you control and which explodes on impact, damaging and stunning enemies. Hold [LMB] to accelerate the owl. Press [SPACE] to release control. Gain permanent Spirit Power for each enemy hero killed with Guided Owl (4s buffer window)",
+    "description_image": "spells_description/2024/11/10/grey_talon/guided_owl.jpg",
+    "cooldown": "127.00",
+    "activity": true,
+    "characters": 4,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/grey_talon/guided_owl.webp",
+    "slug": "guided_owl",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 17,
+  "fields": {
+    "title": "sleep dager",
+    "description": "Throw a dagger that damages and sleeps the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities.",
+    "description_image": "spells_description/2024/11/10/haze/sleep_dager.jpg",
+    "cooldown": "26.00",
+    "activity": true,
+    "characters": 5,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/haze/sleep_dagger.webp",
+    "slug": "sleep_dagger",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 18,
+  "fields": {
+    "title": "smoke bomb",
+    "description": "Fade out of sight, becoming invisible and gaining sprint speed. Attacking removes invisibility. Close enemies can see through your invisibility.",
+    "description_image": "spells_description/2024/11/10/haze/smoke_bomb.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 5,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/haze/smoke_bomb.webp",
+    "slug": "smoke_bomb",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 19,
+  "fields": {
+    "title": "fixation",
+    "description": "Shooting a target increases your bullet damage on that target. Gain one stack per bullet hit, two if the hit is a headshot.",
+    "description_image": "spells_description/2024/11/10/haze/fixation.jpg",
+    "cooldown": "6.00",
+    "activity": true,
+    "characters": 5,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/haze/fixation.webp",
+    "slug": "fixation",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 20,
+  "fields": {
+    "title": "bullet dance",
+    "description": "Enter a flurry, firing your weapon at nearby enemies with perfect accuracy. During the flurry, Haze gains a fire rate bonus and will evade some of the bullets shot at her.",
+    "description_image": "spells_description/2024/11/10/haze/bullet_dance.jpg",
+    "cooldown": "138.00",
+    "activity": true,
+    "characters": 5,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/haze/bullet_dance.webp",
+    "slug": "bullet_dance",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 21,
+  "fields": {
+    "title": "catalyst",
+    "description": "Spew napalm that slows enemy movement and amplifies the damage Infernus does to them",
+    "description_image": "spells_description/2024/11/10/infernus/catalyst.jpg",
+    "cooldown": "25.00",
+    "activity": true,
+    "characters": 6,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/infernus/catalyst.webp",
+    "slug": "catalyst",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 22,
+  "fields": {
+    "title": "flame dash",
+    "description": "Move forward at high speed and leave a flame trail that burns enemies. Infernus gains 50% slow resistance for the duration. Hold [LMB] to dash faster.",
+    "description_image": "spells_description/2024/11/10/infernus/flame_dash.jpg",
+    "cooldown": "40.00",
+    "activity": true,
+    "characters": 6,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/infernus/flame_dash.webp",
+    "slug": "flame_dash",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 23,
+  "fields": {
+    "title": "afterburn",
+    "description": "Your bullets build up to apply a burning effect on enemies. Infernus's bullets and abiliteis will refresh the duration.",
+    "description_image": "spells_description/2024/11/10/infernus/afterburn.jpg",
+    "cooldown": "15.00",
+    "activity": true,
+    "characters": 6,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/infernus/afterburn.webp",
+    "slug": "afterburn",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 24,
+  "fields": {
+    "title": "concussive combustion",
+    "description": "Turns you into a living bomb that explodes after a short delay, stunning all enemies in its radius.",
+    "description_image": "spells_description/2024/11/10/infernus/concussive_combustion.jpg",
+    "cooldown": "127.00",
+    "activity": true,
+    "characters": 6,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/infernus/concussive_combustion.webp",
+    "slug": "concussive_combustion",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 25,
+  "fields": {
+    "title": "kudzu bomb",
+    "description": "Summon a patch of choking vines that damages and slows enemies in its radius",
+    "description_image": "spells_description/2024/11/10/ivy/kudzu_bomb.jpg",
+    "cooldown": "32.00",
+    "activity": true,
+    "characters": 7,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/ivy/kudzu_bomb.webp",
+    "slug": "kudzu_bomb",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 26,
+  "fields": {
+    "title": "watcher's covenant",
+    "description": "Gain bonuses and automatically connect with a nearby ally to share them. Healing is replicated among all those connected. Connection requires line of sight. Press [2] to Lock on to a target.",
+    "description_image": "spells_description/2024/11/10/ivy/watchers_covenant.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 7,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/ivy/watchers_covenant.webp",
+    "slug": "watchers_covenant",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 27,
+  "fields": {
+    "title": "stone form",
+    "description": "Turn yourself into impervious stone and smash into the ground, stunning and damaging enemies nearby. Heals you for a percentage of your max health. You have some air control before falling.",
+    "description_image": "spells_description/2024/11/10/ivy/stone_form.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 7,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/ivy/stone_form.webp",
+    "slug": "stone_form",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 28,
+  "fields": {
+    "title": "air drop",
+    "description": "Take flight with an ally or a bomb. Drop your ally or bomb to cause a large explosion that causes movement slow. Ivy and ally gain a bullet shield when flying ends. While lifted, your ally gains bullet resist but cannot attack and deals -50% damage. Air Drop has faster cast time when targeting an ally. [LMB] to accellerate flying speed. [RMB] to drop ally/bomb.",
+    "description_image": "spells_description/2024/11/10/ivy/air_drop.jpg",
+    "cooldown": "85.00",
+    "activity": true,
+    "characters": 7,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/ivy/air_drop.webp",
+    "slug": "air_drop",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 29,
+  "fields": {
+    "title": "frost grenade",
+    "description": "Throw a grenade that explodes in a cloud of freezing ice, damaging and slowing enemies.",
+    "description_image": "spells_description/2024/11/10/kelvin/frost_grenade.jpg",
+    "cooldown": "22.00",
+    "activity": true,
+    "characters": 8,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/kelvin/frost_grenade.webp",
+    "slug": "frost_grenade",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 30,
+  "fields": {
+    "title": "ice path",
+    "description": "Kelvin creates a floating trail of ice and snow that gives movement bonuses to him and his allies. Kelvin gains 60% slow resistance for the duration. Enemies can also walk on the floating trail. Press [LEFT SHIFT]/[LEFT CTRL] to travel up or down while in Ice Path.",
+    "description_image": "spells_description/2024/11/10/kelvin/ice_path.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 8,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/kelvin/ice_path.webp",
+    "slug": "ice_path",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 31,
+  "fields": {
+    "title": "arctic beam",
+    "description": "Shoot freezing cold energy out in front of you, damaging targets and building up movement and fire rate slow against them the longer you sustain the beam on them. You have reduced movement speed while using Arctic Beam. The beam may also claim Souls.",
+    "description_image": "spells_description/2024/11/10/kelvin/arctic_beam.jpg",
+    "cooldown": "24.00",
+    "activity": true,
+    "characters": 8,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/kelvin/arctic_beam.webp",
+    "slug": "arctic_beam",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 32,
+  "fields": {
+    "title": "frozen shelter",
+    "description": "Kelvin freezes the air around him, creating an impenetrable dome around himself. While in the dome, allies rapidly regenerate health and enemies are slowed. Objectives and Rejuvenator are frozen and invulnerable when under frozen shelter.",
+    "description_image": "spells_description/2024/11/10/kelvin/frozen_shelter.jpg",
+    "cooldown": "127.00",
+    "activity": true,
+    "characters": 8,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/kelvin/frozen_shelter.webp",
+    "slug": "frozen_shelter",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 33,
+  "fields": {
+    "title": "essence bomb",
+    "description": "Sacrifice some of your health to launch a bomb that deals damage after a brief arm time. Self damage type is Spirit and can be mitigated.",
+    "description_image": "spells_description/2024/11/10/lady_geist/essence_bomb.jpg",
+    "cooldown": "10.50",
+    "activity": true,
+    "characters": 9,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lady_geist/essence_bomb.webp",
+    "slug": "essence_bomb",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 34,
+  "fields": {
+    "title": "life drain",
+    "description": "Create a tether that drains enemy health over time and heals you. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your movement speed is reduced by half. Press [2] to cancel. Can be alt-casted on allied heroes.",
+    "description_image": "spells_description/2024/11/10/lady_geist/life_drain.jpg",
+    "cooldown": "30.00",
+    "activity": true,
+    "characters": 9,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lady_geist/life_drain.webp",
+    "slug": "life_drain",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 35,
+  "fields": {
+    "title": "malice",
+    "description": "Sacrifice some of your health to launch blood shards that apply a stack of Malice. Each stack slows the victim and increases the damage they take from you. The slow effect decreases over time.",
+    "description_image": "spells_description/2024/11/10/lady_geist/malice.jpg",
+    "cooldown": "6.00",
+    "activity": true,
+    "characters": 9,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lady_geist/malice.webp",
+    "slug": "malice",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 36,
+  "fields": {
+    "title": "soul exchange",
+    "description": "Swaps health levels with an enemy target. There is a minimum health percentage that enemies can be brought down to and a minimum amount of health received based on victims current health.",
+    "description_image": "spells_description/2024/11/10/lady_geist/soul_exchange.jpg",
+    "cooldown": "170.00",
+    "activity": true,
+    "characters": 9,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lady_geist/soul_exchange.webp",
+    "slug": "soul_exchange",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 37,
+  "fields": {
+    "title": "ground strike",
+    "description": "Stomp the ground beneath you, damaging enemies in front of you. If you perform Ground Strike while airborne, you quickly dive towards the ground. Damage grows slower after 25m.",
+    "description_image": "spells_description/2024/11/10/lash/ground_strike.jpg",
+    "cooldown": "19.00",
+    "activity": true,
+    "characters": 10,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lash/ground_strike.webp",
+    "slug": "ground_strike",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 38,
+  "fields": {
+    "title": "grapple",
+    "description": "Pull yourself through the air toward a target. Using Grapple also resets your limit of air jumps and dashes.",
+    "description_image": "spells_description/2024/11/10/lash/grapple.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 10,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lash/grapple.webp",
+    "slug": "grapple.webp",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 39,
+  "fields": {
+    "title": "flog",
+    "description": "Strike enemies with your whip, stealing life from them",
+    "description_image": "spells_description/2024/11/10/lash/flog.jpg",
+    "cooldown": "26.00",
+    "activity": true,
+    "characters": 10,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lash/flog.webp",
+    "slug": "flog",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 40,
+  "fields": {
+    "title": "death slam",
+    "description": "Focus on enemies to connect whips to them. After channeling, connected enemies are lifted and stunned then slammed into the ground. Your victims and any enemies in the landing zone will be damaged and slowed. Press [LMB] to throw connected enemies early. Enemies that are not in line of sight or go out of range during the latch time will not be grabbed.",
+    "description_image": "spells_description/2024/11/10/lash/death_slam.jpg",
+    "cooldown": "138.00",
+    "activity": true,
+    "characters": 10,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/lash/death_slam.webp",
+    "slug": "death_slam.webp",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 41,
+  "fields": {
+    "title": "mini turret",
+    "description": "Deploy a Mini Turret that automatically shoots enemies. The turret expires after a limited lifetime. Turrets gain 30% of McGinnis's max health and have 60% Spirit Resist. They deal reduced damage to troopers and objectives.",
+    "description_image": "spells_description/2024/11/10/mcginnis/mini_turret.jpg",
+    "cooldown": "18.00",
+    "activity": true,
+    "characters": 11,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mcginnis/tini_turret.webp",
+    "slug": "tini_turret",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 42,
+  "fields": {
+    "title": "medicinal specter",
+    "description": "Deploy a spirit that heals nearby units.",
+    "description_image": "spells_description/2024/11/10/mcginnis/medicinal_specter.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 11,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mcginnis/medicinal_specter.webp",
+    "slug": "medicinal_specter",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 43,
+  "fields": {
+    "title": "spectral wall",
+    "description": "Creates a wall that divides the terrain in half. On creation, the wall deals damage and applies slow to enemies nearby. After casting, press [LMB] or [3] to erupt the wall early.",
+    "description_image": "spells_description/2024/11/10/mcginnis/spectral_wall.jpg",
+    "cooldown": "46.00",
+    "activity": true,
+    "characters": 11,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mcginnis/spectral_wall.webp",
+    "slug": "spectral_wall",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 44,
+  "fields": {
+    "title": "heavy barrage",
+    "description": "Unleashes a volley of rockets that home in on a targeted location.",
+    "description_image": "spells_description/2024/11/10/mcginnis/heavy_barrage.jpg",
+    "cooldown": "140.00",
+    "activity": true,
+    "characters": 11,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mcginnis/heavy_barrage.webp",
+    "slug": "heavy_barrage",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 45,
+  "fields": {
+    "title": "tornado",
+    "description": "Transform yourself into a tornado that travels forward, damaging enemies and lifting them up in the air. After emerging from the tornado you gain bullet evasion.",
+    "description_image": "spells_description/2024/11/10/mirage/tornado.jpg",
+    "cooldown": "32.00",
+    "activity": true,
+    "characters": 12,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mirage/tornado.webp",
+    "slug": "tornado",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 46,
+  "fields": {
+    "title": "fire scarabs",
+    "description": "Start launching fire scarabs. Each scarab can be launched separately, stealing max health from enemies and applying bullet resist reduction. Cannot apply multiple scarabs to the same enemy. The health gain from hitting heroes is 3x as effective as against non-heroes.",
+    "description_image": "spells_description/2024/11/10/mirage/fire_scarabs.jpg",
+    "cooldown": "40.00",
+    "activity": true,
+    "characters": 12,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mirage/fire_scarabs.webp",
+    "slug": "fire_scarabs",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 47,
+  "fields": {
+    "title": "djinn's_mark",
+    "description": "Passive: Your shots apply an increasing multiplier on the target. When the multiplier on a target expires or you reach the max, it's consumed and the target suffers Spirit Damage and is briefly revealed on the map. The final damage is the base damage times the multiplier. Active: Consume multiplier or Djinn's Mark to deal its damage now.",
+    "description_image": "spells_description/2024/11/10/mirage/djinns_mark",
+    "cooldown": "2.50",
+    "activity": false,
+    "characters": 12,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mirage/djinns_mark.webp",
+    "slug": "djinns_mark",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 48,
+  "fields": {
+    "title": "traveler",
+    "description": "Channeled. Target an ally or visible enemy hero on the minimap. then teleport to where they were when your channel started. After teleporting, you gain movement speed as well as fire rate until your next reload.",
+    "description_image": "spells_description/2024/11/10/mirage/traveler.jpg",
+    "cooldown": "130.00",
+    "activity": true,
+    "characters": 12,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mirage/traveler.webp",
+    "slug": "traveler",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 49,
+  "fields": {
+    "title": "scorn",
+    "description": "Deal damage to nearby enemies and heal yourself based on the damage done. Heal is stronger against enemy heroes.",
+    "description_image": "spells_description/2024/11/10/mo_and_krill/scorn.jpg",
+    "cooldown": "12.50",
+    "activity": true,
+    "characters": 13,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mo_and_krill/scorn.webp",
+    "slug": "scorn",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 50,
+  "fields": {
+    "title": "burrow",
+    "description": "Burrow underground, moving faster, and gaining spirit and bullet armor. Damage from enemy heroes will reduce the speed bonus. When you jump out, knock enemies into the air and perform a spin attack that damages and slows. Cooldown starts when Burrow ends.",
+    "description_image": "spells_description/2024/11/10/mo_and_krill/burrow.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 13,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mo_and_krill/burrow.webp",
+    "slug": "burrow",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 51,
+  "fields": {
+    "title": "sand blast",
+    "description": "Spray sand that disarms enemies in front of you and deals damage.",
+    "description_image": "spells_description/2024/11/10/mo_and_krill/sand_blast.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 13,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mo_and_krill/sand_blast.webp",
+    "slug": "sand_blast",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 52,
+  "fields": {
+    "title": "combo",
+    "description": "Hold the target in place, stunning them and dealing damage during the channel. If they die during Combo, you permanently gain max health. 3s buffer window on kills to get this credit.",
+    "description_image": "spells_description/2024/11/10/mo_and_krill/combo.jpg",
+    "cooldown": "75.00",
+    "activity": true,
+    "characters": 13,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/mo_and_krill/combo.webp",
+    "slug": "combo",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 53,
+  "fields": {
+    "title": "pulse grenade",
+    "description": "Throw a grenade that begins pulsing when it lands. Each pulse applies damage, movement slow, and stacking damage amplification for Paradox against the victim.",
+    "description_image": "spells_description/2024/11/10/paradox/pulse_grenade.jpg",
+    "cooldown": "28.00",
+    "activity": true,
+    "characters": 14,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/paradox/pulse_grenade.webp",
+    "slug": "pulse_grenade",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 54,
+  "fields": {
+    "title": "time wall",
+    "description": "Create a time warping wall that stops time for all enemy projectiles and bullets that touch it. Enemies that touch the wall will take damage as a percentage of their max health and be briefly slowed.",
+    "description_image": "spells_description/2024/11/10/paradox/time_wall.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 14,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/paradox/time_wall.webp",
+    "slug": "time_wall",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 55,
+  "fields": {
+    "title": "kinetic carbine",
+    "description": "Start charging your weapon and gain increased movement speed once it's fully charged. Your next shot will release the energy, dealing spirit damage and applying a time stop to the enemy hit. The damage dealt is an amplification of your current weapon damage. You can slow time on yourself by pressing [RMB] while an empowered shot is available.",
+    "description_image": "spells_description/2024/11/10/paradox/kinetic_carbine.jpg",
+    "cooldown": "30.00",
+    "activity": true,
+    "characters": 14,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/paradox/kinetic_carbine.webp",
+    "slug": "kinetic_carbine",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 56,
+  "fields": {
+    "title": "paradoxical swap",
+    "description": "Fire a projectile that swaps your position with the target enemy hero. While the effect occurs, you gain spirit lifesteal and the enemy takes damage over time.",
+    "description_image": "spells_description/2024/11/10/paradox/paradoxical_swap.jpg",
+    "cooldown": "65.00",
+    "activity": true,
+    "characters": 14,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/paradox/paradoxical_swap.webp",
+    "slug": "paradoxical_swap",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 57,
+  "fields": {
+    "title": "barrage",
+    "description": "Channel to start launching projectiles that deal damage and apply 30% movement slow around their impact point. Each projectile landed on a hero grants you a stacking buff that amplifies all of your damage. If you cast it while in the air, you'll float and maintain any horizontal momentum you started with.",
+    "description_image": "spells_description/2024/11/10/pocket/barrage.jpg",
+    "cooldown": "32.00",
+    "activity": true,
+    "characters": 15,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/pocket/affliction.webp",
+    "slug": "affliction",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 58,
+  "fields": {
+    "title": "flying cloak",
+    "description": "Launch a sentient cloak that travels forward and damages enemies. You can press [2] to teleport to its location.",
+    "description_image": "spells_description/2024/11/10/pocket/flying_cloak.jpg",
+    "cooldown": "32.00",
+    "activity": true,
+    "characters": 15,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/pocket/flying_cloak.webp",
+    "slug": "flying_cloak",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 59,
+  "fields": {
+    "title": "enchanter's satchel",
+    "description": "Escape into your suitcase. When the duration ends, deal damage to nearby enemies. Duration can be ended early by performing any action.",
+    "description_image": "spells_description/2024/11/10/pocket/enchanters_satchel.jpg",
+    "cooldown": "17.00",
+    "activity": true,
+    "characters": 15,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/pocket/enchanters_satchel.webp",
+    "slug": "enchanters_satchel",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 60,
+  "fields": {
+    "title": "affliction",
+    "description": "Apply damage over time to all enemies nearby. Affliction's damage is non-lethal and does not apply item procs.",
+    "description_image": "spells_description/2024/11/10/pocket/affliction.jpg",
+    "cooldown": "127.00",
+    "activity": true,
+    "characters": 15,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/pocket/affliction.webp",
+    "slug": "affliction",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 61,
+  "fields": {
+    "title": "lightning ball",
+    "description": "Shoot a ball of lightning that travels in a straight line. Does damage to all targets in its radius. Slows down when damaging enemies and stops if it hits the world.",
+    "description_image": "spells_description/2024/11/10/seven/lightning_ball.jpg",
+    "cooldown": "26.00",
+    "activity": true,
+    "characters": 16,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/seven/lightning_ball.webp",
+    "slug": "lightning_ball",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 62,
+  "fields": {
+    "title": "static charge",
+    "description": "Apply a charge to a target enemy hero. After a short duration, the static charge stuns and damages enemies within the radius. Can be alt-casted on self.",
+    "description_image": "spells_description/2024/11/10/seven/static_charge.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 16,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/seven/static_charge.webp",
+    "slug": "static_charge",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 63,
+  "fields": {
+    "title": "power_surge",
+    "description": "Power up your weapon with a shock effect, making your bullets proc shock damage on your target. This shock damage bounces to enemies near your target. Occurs once per burst shot.",
+    "description_image": "spells_description/2024/11/10/seven/power_surge.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 16,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/seven/power_surge.webp",
+    "slug": "power_surge.webp",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 64,
+  "fields": {
+    "title": "storm_cloud",
+    "description": "Channel an expanding storm cloud around you that damages all enemies within its radius. Enemies do not take damage when they are out of line-of-sight. You have increased Bullet Resist during the channel.",
+    "description_image": "spells_description/2024/11/10/seven/storm_cloud.jpg",
+    "cooldown": "148.00",
+    "activity": true,
+    "characters": 16,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/seven/storm_cloud.webp",
+    "slug": "storm_cloud",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 65,
+  "fields": {
+    "title": "serrated knives",
+    "description": "Throw a knife that damages and bleeds an enemy. Each additional hit adds a stack and refreshes the bleed duration, causing the bleed to increase per stack.",
+    "description_image": "spells_description/2024/11/10/shiv/serrated_knives.jpg",
+    "cooldown": "19.00",
+    "activity": true,
+    "characters": 17,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/shiv/serrated_knives.webp",
+    "slug": "serrated_knives",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 66,
+  "fields": {
+    "title": "slice and dice",
+    "description": "Perform a dash forward, damaging enemies along the path.",
+    "description_image": "spells_description/2024/11/10/shiv/slice_and_dice.jpg",
+    "cooldown": "16.00",
+    "activity": true,
+    "characters": 17,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/shiv/slice_and_dice.webp",
+    "slug": "slice_and_dice",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 67,
+  "fields": {
+    "title": "bloodletting",
+    "description": "Take only a portion of incoming damage immediately and defer the rest to be taken over time. Activate to clear a portion of the deferred damage.",
+    "description_image": "spells_description/2024/11/10/shiv/bloodletting.jpg",
+    "cooldown": "50.00",
+    "activity": true,
+    "characters": 17,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/shiv/bloodletting.webp",
+    "slug": "bloodletting",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 68,
+  "fields": {
+    "title": "killing blow",
+    "description": "Activate to leap towards an enemy hero and instantly kill them if their health is below the kill threshold, otherwise deal 200 damage to them. Passive: Damaging enemies fills you with rage. While at full rage, Shiv gains increased damage and special properties on his other abilities.",
+    "description_image": "spells_description/2024/11/10/shiv/killing_blow.jpg",
+    "cooldown": "95.00",
+    "activity": true,
+    "characters": 17,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/shiv/killing_blow.webp",
+    "slug": "killing_blow",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 69,
+  "fields": {
+    "title": "stake",
+    "description": "Throw a stake that tethers enemies to the location where the stake lands. Enemy movement is restricted to the length of the tether.",
+    "description_image": "spells_description/2024/11/10/vindicta/stake.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 18,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/vindicta/stake.webp",
+    "slug": "stake",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 70,
+  "fields": {
+    "title": "flight",
+    "description": "Leap into the air and fly. While in flight your weapon deals bonus spirit damage.",
+    "description_image": "spells_description/2024/11/10/vindicta/flight.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 18,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/vindicta/flight.webp",
+    "slug": "flight",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 71,
+  "fields": {
+    "title": "crow familiar",
+    "description": "Your crow familiar deals impact damage and applies a bleed that deals damage based on the target's current health.",
+    "description_image": "spells_description/2024/11/10/vindicta/crow_familiar.jpg",
+    "cooldown": "26.00",
+    "activity": true,
+    "characters": 18,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/vindicta/crow_familiar.webp",
+    "slug": "crow_familiar",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 72,
+  "fields": {
+    "title": "assassinate",
+    "description": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does bonus damage to enemies with less than 50% health remaining. Does 20% more damage on headshot. Landing a killing blow on a player with Assassinate grants you bonus unsecured souls.",
+    "description_image": "spells_description/2024/11/10/vindicta/assassinate.jpg",
+    "cooldown": "53.00",
+    "activity": true,
+    "characters": 18,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/vindicta/assassinate.webp",
+    "slug": "assassinate",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 73,
+  "fields": {
+    "title": "splatter",
+    "description": "Throw a ball of goo that deals damage and leaves puddles of goo behind that apply movement slow to enemies in the radius. Goo puddles linger on the ground and apply a movement slow to enemies walking on them.",
+    "description_image": "spells_description/2024/11/10/viscouse/splatter.jpg",
+    "cooldown": "21.00",
+    "activity": true,
+    "characters": 19,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/viscouse/splatter.webp",
+    "slug": "splatter",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 74,
+  "fields": {
+    "title": "the cube",
+    "description": "Encase the target in a cube of restorative goo that protects from damage, and increases health regen. Target is unable to take any new actions while cubed. Can be used on self. Press [SPACE] to escape early.",
+    "description_image": "spells_description/2024/11/10/viscouse/the_cube.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 19,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/viscouse/the_cube.webp",
+    "slug": "the_cube",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 75,
+  "fields": {
+    "title": "puddle punch",
+    "description": "Materialize a fist in the world that punches units in the area and send them flying. Enemies will be dealt damage, have their dash distance reduced for a brief moment, and have their movement slowed. This is considered a Light Melee attack.",
+    "description_image": "spells_description/2024/11/10/viscouse/puddle_punch",
+    "cooldown": "30.00",
+    "activity": true,
+    "characters": 19,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/viscouse/puddle_punch.webp",
+    "slug": "puddle_punch",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 76,
+  "fields": {
+    "title": "goo ball",
+    "description": "Morph into a large goo ball that deals damage and stuns enemies on impact. The ball grants large amounts of Bullet and Spirit resist, bounces off walls and can double jump.",
+    "description_image": "spells_description/2024/11/10/viscouse/goo_ball.jpg",
+    "cooldown": "95.00",
+    "activity": true,
+    "characters": 19,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/viscouse/goo_ball.webp",
+    "slug": "goo_ball.webp",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 77,
+  "fields": {
+    "title": "alchemical flask",
+    "description": "Throw a flask that damages, slows, and reduces the weapon damage and stamina of enemies it hits.",
+    "description_image": "spells_description/2024/11/10/warden/alchemical_flask.jpg",
+    "cooldown": "12.00",
+    "activity": true,
+    "characters": 20,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/warden/alchemical_flask.webp",
+    "slug": "alchemical_flask.webp",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 78,
+  "fields": {
+    "title": "willpower",
+    "description": "Gain a spirit shield and bonus movement speed.",
+    "description_image": "spells_description/2024/11/10/warden/willpower.jpg",
+    "cooldown": "42.00",
+    "activity": true,
+    "characters": 20,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/warden/willpower.webp",
+    "slug": "willpower.webp",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 79,
+  "fields": {
+    "title": "binding word",
+    "description": "Curse an enemy hero. If they don't move away from their initial position within the escape time, they will be damaged and immobilized.",
+    "description_image": "spells_description/2024/11/10/warden/binding_word.jpg",
+    "cooldown": "37.00",
+    "activity": true,
+    "characters": 20,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/warden/binding_word.webp",
+    "slug": "binding_word",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 80,
+  "fields": {
+    "title": "last_stand",
+    "description": "After charging for 2s, release pulses that damage enemies and heal you based on the damage done.",
+    "description_image": "spells_description/2024/11/10/warden/last_stand.jpg",
+    "cooldown": "138.00",
+    "activity": true,
+    "characters": 20,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/warden/last_stand.webp",
+    "slug": "last_stand",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 81,
+  "fields": {
+    "title": "card trick",
+    "description": "Deal weapon damage to summon cards. Activate to throw a card that flies towards the enemy or point under your crosshair.",
+    "description_image": "spells_description/2024/11/10/wraith/card_trick.jpg",
+    "cooldown": "0.65",
+    "activity": true,
+    "characters": 21,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/wraith/card_trick.webp",
+    "slug": "card_trick",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 82,
+  "fields": {
+    "title": "project mind",
+    "description": "Teleport to the targeted location.",
+    "description_image": "spells_description/2024/11/10/wraith/project_mind.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 21,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/wraith/project_mind.webp",
+    "slug": "project_mind",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 83,
+  "fields": {
+    "title": "full auto",
+    "description": "Temporarily boosts your fire rate. Nearby allies receive half the fire rate bonus.",
+    "description_image": "spells_description/2024/11/10/wraith/full_auto.jpg",
+    "cooldown": "48.00",
+    "activity": true,
+    "characters": 21,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/wraith/full_auto.webp",
+    "slug": "full_auto",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 84,
+  "fields": {
+    "title": "telekinesis",
+    "description": "Lift an enemy hero into the air, stunning them for a short time. When the lift ends, the target receives Telekinesis damage.",
+    "description_image": "spells_description/2024/11/10/wraith/telekinesis.jpg",
+    "cooldown": "100.00",
+    "activity": true,
+    "characters": 21,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/wraith/telekinesis.webp",
+    "slug": "telekinesis",
+    "spell_number": 4
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 85,
+  "fields": {
+    "title": "power slash",
+    "description": "Channel to increase damage over 1.4 seconds, then release a fully-charged sword strike. Press [1] or [-] to trigger the strike early, dealing partial damage.",
+    "description_image": "spells_description/2024/11/10/yamato/power_slash.jpg",
+    "cooldown": "10.50",
+    "activity": true,
+    "characters": 22,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/yamato/power_slash.webp",
+    "slug": "power_slash",
+    "spell_number": 1
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 86,
+  "fields": {
+    "title": "flying strike",
+    "description": "Throw a grappling hook to reel yourself towards an enemy, damaging and slowing the target when you arrive.",
+    "description_image": "spells_description/2024/11/10/yamato/flying_strike.jpg",
+    "cooldown": "21.00",
+    "activity": true,
+    "characters": 22,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/yamato/flying_strike.webp",
+    "slug": "flying_strike",
+    "spell_number": 2
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 87,
+  "fields": {
+    "title": "crimson slash",
+    "description": "Slash enemies in front of you, damaging them and slowing their fire rate. If any enemy heroes are hit, you heal.",
+    "description_image": "spells_description/2024/11/10/yamato/crimson_slash.jpg",
+    "cooldown": "11.50",
+    "activity": true,
+    "characters": 22,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/yamato/crimson_slash.webp",
+    "slug": "crimson_slash",
+    "spell_number": 3
+  }
+},
+{
+  "model": "characters.spells",
+  "pk": 88,
+  "fields": {
+    "title": "shadow transformation",
+    "description": "Become infused with Yamato's shadow soul. After an initial invincible transformation, your abilities are refreshed and are 60% faster, and you gain damage resists and immunity to negative status effects. You are unable to die in this mode.",
+    "description_image": "spells_description/2024/11/10/yamato/shadow_transformation.jpg",
+    "cooldown": "85.00",
+    "activity": true,
+    "characters": 22,
+    "create_date": "2024-11-10T16:55:05.262Z",
+    "update_date": "2024-11-10T16:55:05.262Z",
+    "image": "spells/2024/11/10/yamato/shadow_transformation.webp",
+    "slug": "shadow_transformation",
+    "spell_number": 4
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add characters",
+    "content_type": [
+      "characters",
+      "characters"
+    ],
+    "codename": "add_characters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change characters",
+    "content_type": [
+      "characters",
+      "characters"
+    ],
+    "codename": "change_characters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete characters",
+    "content_type": [
+      "characters",
+      "characters"
+    ],
+    "codename": "delete_characters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view characters",
+    "content_type": [
+      "characters",
+      "characters"
+    ],
+    "codename": "view_characters"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add spells",
+    "content_type": [
+      "characters",
+      "spells"
+    ],
+    "codename": "add_spells"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change spells",
+    "content_type": [
+      "characters",
+      "spells"
+    ],
+    "codename": "change_spells"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete spells",
+    "content_type": [
+      "characters",
+      "spells"
+    ],
+    "codename": "delete_spells"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view spells",
+    "content_type": [
+      "characters",
+      "spells"
+    ],
+    "codename": "view_spells"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add shop",
+    "content_type": [
+      "shop",
+      "shop"
+    ],
+    "codename": "add_shop"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change shop",
+    "content_type": [
+      "shop",
+      "shop"
+    ],
+    "codename": "change_shop"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete shop",
+    "content_type": [
+      "shop",
+      "shop"
+    ],
+    "codename": "delete_shop"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view shop",
+    "content_type": [
+      "shop",
+      "shop"
+    ],
+    "codename": "view_shop"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add map",
+    "content_type": [
+      "map",
+      "map"
+    ],
+    "codename": "add_map"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change map",
+    "content_type": [
+      "map",
+      "map"
+    ],
+    "codename": "change_map"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete map",
+    "content_type": [
+      "map",
+      "map"
+    ],
+    "codename": "delete_map"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view map",
+    "content_type": [
+      "map",
+      "map"
+    ],
+    "codename": "view_map"
+  }
+}
+]
