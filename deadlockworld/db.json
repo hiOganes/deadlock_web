@@ -80,6 +80,14 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "xt13jlmoyut4kd2o4h93fxbeuslo1n94",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgz7p0328gAzNI1UBS2pXx35WkC13d5J6T82IB9q2EvdMaFmQXJtnp94uQHlQHwDvUW-Op1W1dIh8KP2jnc0N6Xg_3L1Cgl5ElgU4heSVkNMb4LEQkPWWfSDgZgbLN380TKe_AO7Jn0h6iTEJbQvb-AO0ROGk:1tAZic:vzYne7PgJGILi8qIZDg8Bvsfdcqm3DQ903HCcXp9N_Y",
+    "expire_date": "2024-11-25T19:04:58.701Z"
+  }
+},
+{
   "model": "characters.characters",
   "pk": 1,
   "fields": {
@@ -2126,6 +2134,1761 @@
   }
 },
 {
+  "model": "shop.shop",
+  "pk": 3,
+  "fields": {
+    "title": "ammo scavenger",
+    "description": "{'Ammo': +15%, 'Bonus Health': +40}",
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/ammo_scavenger.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.319Z",
+    "update_date": "2024-11-13T07:44:10.319Z",
+    "slug": "ammo_scavenger"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 4,
+  "fields": {
+    "title": "extra charge",
+    "description": "{'Bonus Ability Charges': +1, 'Cooldown Reduction for Charged Abilities': +10%, 'Weapon Damage': +6%}",
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/extra_charge.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.319Z",
+    "update_date": "2024-11-13T07:44:10.319Z",
+    "slug": "extra_charge"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 5,
+  "fields": {
+    "title": "extra spirit",
+    "description": null,
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/extra_spirit.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.319Z",
+    "update_date": "2024-11-13T07:44:10.319Z",
+    "slug": "extra_spirit"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 6,
+  "fields": {
+    "title": "infuser",
+    "description": null,
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/infuser.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.319Z",
+    "update_date": "2024-11-13T07:44:10.319Z",
+    "slug": "infuser"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 7,
+  "fields": {
+    "title": "mystic burst",
+    "description": null,
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/mystic_burst.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "mystic_burst"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 8,
+  "fields": {
+    "title": "mystic reach",
+    "description": null,
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/mystic_reach.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "mystic_reach"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 9,
+  "fields": {
+    "title": "spirit strike",
+    "description": null,
+    "price": 500,
+    "image": "shop/spirit/2024/11/12/500/spirit_strike.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "spirit_strike"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 10,
+  "fields": {
+    "title": "bullet resist shredder",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/bullet_resist_shredder.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "bullet_resist_shredder"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 11,
+  "fields": {
+    "title": "cold front",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/cold_front.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "cold_front"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 12,
+  "fields": {
+    "title": "decay",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/decay.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "decay"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 13,
+  "fields": {
+    "title": "duration extender",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/duration_extender.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "duration_extender"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 14,
+  "fields": {
+    "title": "improved cooldown",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/improved_cooldown.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "improved_cooldown"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 15,
+  "fields": {
+    "title": "mystic vulnerability",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "mystic_vulnerability"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 16,
+  "fields": {
+    "title": "quicksilver reload",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/quicksilver_reload.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "quicksilver_reload"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 17,
+  "fields": {
+    "title": "slowing hex",
+    "description": null,
+    "price": 1750,
+    "image": "shop/spirit/2024/11/12/500/slowing_hex.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "slowing_hex"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 18,
+  "fields": {
+    "title": "suppressor",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/suppressor.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "suppressor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 19,
+  "fields": {
+    "title": "withering_whip",
+    "description": null,
+    "price": 1250,
+    "image": "shop/spirit/2024/11/12/500/withering_whip.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "withering_whip"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 20,
+  "fields": {
+    "title": "ethereal shift",
+    "description": null,
+    "price": 3000,
+    "image": "shop/spirit/2024/11/12/500/ethereal_shift.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "ethereal_shift"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 21,
+  "fields": {
+    "title": "improved burst",
+    "description": null,
+    "price": 3500,
+    "image": "shop/spirit/2024/11/12/500/improved_burst.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "improved_burst"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 22,
+  "fields": {
+    "title": "improved reach",
+    "description": null,
+    "price": 3500,
+    "image": "shop/spirit/2024/11/12/500/improved_reach.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "improved_reach"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 23,
+  "fields": {
+    "title": "improved spirit",
+    "description": null,
+    "price": 3500,
+    "image": "shop/spirit/2024/11/12/500/improved_spirit.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "improved_spirit"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 24,
+  "fields": {
+    "title": "knockdown",
+    "description": null,
+    "price": 3000,
+    "image": "shop/spirit/2024/11/12/500/knockdown.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "knockdown"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 25,
+  "fields": {
+    "title": "mystic slow",
+    "description": null,
+    "price": 4250,
+    "image": "shop/spirit/2024/11/12/500/mystic_slow.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "mystic_slow"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 26,
+  "fields": {
+    "title": "rapid recharge",
+    "description": null,
+    "price": 3500,
+    "image": "shop/spirit/2024/11/12/500/rapid_recharge.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "rapid_recharge"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 27,
+  "fields": {
+    "title": "silence glyph",
+    "description": null,
+    "price": 3000,
+    "image": "shop/spirit/2024/11/12/500/silence_glyph.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "silence_glyph"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 28,
+  "fields": {
+    "title": "superior cooldown",
+    "description": null,
+    "price": 4250,
+    "image": "shop/spirit/2024/11/12/500/superior_cooldown.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "superior_cooldown"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 29,
+  "fields": {
+    "title": "superior duration",
+    "description": null,
+    "price": 4250,
+    "image": "shop/spirit/2024/11/12/500/superior_duration.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "superior_duration"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 30,
+  "fields": {
+    "title": "surge of power",
+    "description": null,
+    "price": 3000,
+    "image": "shop/spirit/2024/11/12/500/surge_of_power.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "surge_of_power"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 31,
+  "fields": {
+    "title": "torment pulse",
+    "description": null,
+    "price": 3000,
+    "image": "shop/spirit/2024/11/12/500/torment_pulse.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "torment_pulse"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 32,
+  "fields": {
+    "title": "boundless spirit",
+    "description": null,
+    "price": 9700,
+    "image": "shop/spirit/2024/11/12/500/boundless_spirit.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "boundless_spirit"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 33,
+  "fields": {
+    "title": "curse",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/curse.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "curse"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 34,
+  "fields": {
+    "title": "diviner's kevlar",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/diviners_kevlar.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "diviners_kevlar"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 35,
+  "fields": {
+    "title": "echo shard",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/echo_shard.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "echo_shard"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 36,
+  "fields": {
+    "title": "escalating exposure",
+    "description": null,
+    "price": 7450,
+    "image": "shop/spirit/2024/11/12/500/escalating_exposure.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "escalating_exposure"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 37,
+  "fields": {
+    "title": "magic carpet",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/magic_carpet.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "magic_carpet"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 38,
+  "fields": {
+    "title": "mystic reverb",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/mystic_reverb.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "mystic_reverb"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 39,
+  "fields": {
+    "title": "refresher",
+    "description": null,
+    "price": 6200,
+    "image": "shop/spirit/2024/11/12/500/refresher.png",
+    "category": "spirit",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "refresher"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 40,
+  "fields": {
+    "title": "healing rite",
+    "description": null,
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/healing_rite.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "healing_rite"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 41,
+  "fields": {
+    "title": "enduring spirit",
+    "description": "{'Bonus Health': +75, 'Spirit Lifesteal': +10%, 'Spirit Power': +4, 'IS COMPONENT OF': 'Slowing Hex'}",
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/enduring_spirit.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "enduring_spirit"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 42,
+  "fields": {
+    "title": "extra health",
+    "description": "{'Bonus Health': +160, 'Weapon Damage': +7%, 'IS COMPONENT OF': Fortitude}",
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/extra_health.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "extra_health"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 43,
+  "fields": {
+    "title": "extra regen",
+    "description": null,
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/extra_regen.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "extra_regen"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 44,
+  "fields": {
+    "title": "extra stamina",
+    "description": null,
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/extra_stamina.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "extra_stamina"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 45,
+  "fields": {
+    "title": "melee lifesteal",
+    "description": null,
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/melee_lifesteal.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "melee_lifesteal"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 46,
+  "fields": {
+    "title": "sprint boots",
+    "description": null,
+    "price": 500,
+    "image": "shop/vitality/2024/11/12/500/sprint_boots.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "sprint_boots"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 47,
+  "fields": {
+    "title": "bullet armor",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/bullet_armor.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "bullet_armor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 48,
+  "fields": {
+    "title": "bullet lifesteal",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/bullet_lifesteal.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "bullet_lifesteal"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 49,
+  "fields": {
+    "title": "combat barrier",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/combat_barrier.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "combat_barrier"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 50,
+  "fields": {
+    "title": "debuff reducer",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/debuff_reducer.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "debuff_reducer"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 51,
+  "fields": {
+    "title": "divine barrier",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/divine_barrier.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "divine_barrier"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 52,
+  "fields": {
+    "title": "enchanter's barrier",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/enchanters_barrier.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "enchanters_barrier"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 53,
+  "fields": {
+    "title": "enduring speed",
+    "description": null,
+    "price": 1750,
+    "image": "shop/vitality/2024/11/12/500/enduring_speed",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.320Z",
+    "update_date": "2024-11-13T07:44:10.320Z",
+    "slug": "enduring_speed"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 54,
+  "fields": {
+    "title": "healbane",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/healbane.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "healbane"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 55,
+  "fields": {
+    "title": "healing booster",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/healing_booster.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "healing_booster"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 56,
+  "fields": {
+    "title": "healing nova",
+    "description": null,
+    "price": 1750,
+    "image": "shop/vitality/2024/11/12/500/healing_nova.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "healing_nova"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 57,
+  "fields": {
+    "title": "reactive barrier",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/reactive_barrier.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "reactive_barrier"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 58,
+  "fields": {
+    "title": "restorative locket",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/restorative_locket.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "restorative_locket"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 59,
+  "fields": {
+    "title": "return fire",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/return_fire.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "return_fire"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 60,
+  "fields": {
+    "title": "return fire",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/return_fire.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "return_fire"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 61,
+  "fields": {
+    "title": "spirit armor",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/spirit_armor.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "spirit_armor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 62,
+  "fields": {
+    "title": "spirit lifesteal",
+    "description": null,
+    "price": 1250,
+    "image": "shop/vitality/2024/11/12/500/spirit_lifesteal.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "spirit_lifesteal"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 63,
+  "fields": {
+    "title": "debuff remover",
+    "description": null,
+    "price": 4250,
+    "image": "shop/vitality/2024/11/12/500/debuff_remover.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "debuff_remover"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 64,
+  "fields": {
+    "title": "fortitude",
+    "description": null,
+    "price": 3500,
+    "image": "shop/vitality/2024/11/12/500/fortitude.png",
+    "category": "spirit",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "fortitude"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 65,
+  "fields": {
+    "title": "improved bullet armor",
+    "description": null,
+    "price": 4250,
+    "image": "shop/vitality/2024/11/12/500/improved_bullet_armor.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "improved_bullet_armor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 66,
+  "fields": {
+    "title": "improved_spirit_armor",
+    "description": null,
+    "price": 4250,
+    "image": "shop/vitality/2024/11/12/500/improved_spirit_armor.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "improved_spirit_armor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 67,
+  "fields": {
+    "title": "lifestrike",
+    "description": null,
+    "price": 3500,
+    "image": "shop/vitality/2024/11/12/500/lifestrike.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "lifestrike"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 68,
+  "fields": {
+    "title": "majestic leap",
+    "description": null,
+    "price": 3000,
+    "image": "shop/vitality/2024/11/12/500/majestic_leap.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "majestic_leap"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 69,
+  "fields": {
+    "title": "metal skin",
+    "description": null,
+    "price": 3000,
+    "image": "shop/vitality/2024/11/12/500/metal_skin.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "metal_skin"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 70,
+  "fields": {
+    "title": "rescue beam",
+    "description": null,
+    "price": 3000,
+    "image": "shop/vitality/2024/11/12/500/rescue_beam.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "rescue_beam"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 71,
+  "fields": {
+    "title": "superior stamina",
+    "description": null,
+    "price": 3500,
+    "image": "shop/vitality/2024/11/12/500/superior_stamina.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "superior_stamina"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 72,
+  "fields": {
+    "title": "veil walker",
+    "description": null,
+    "price": 3000,
+    "image": "shop/vitality/2024/11/12/500/veil_walker.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "veil_walker"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 73,
+  "fields": {
+    "title": "colossus",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/colossus.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "colossus"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 74,
+  "fields": {
+    "title": "inhibitor",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/inhibitor.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "inhibitor"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 75,
+  "fields": {
+    "title": "leech",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/leech.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "leech"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 76,
+  "fields": {
+    "title": "phantom strike",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/phantom_strike.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "phantom_strike"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 77,
+  "fields": {
+    "title": "siphon bullets",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/siphon_bullets.png",
+    "category": "vitality",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "siphon_bullets"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 78,
+  "fields": {
+    "title": "unstoppable",
+    "description": null,
+    "price": 6200,
+    "image": "shop/vitality/2024/11/12/500/unstoppable.png",
+    "category": "vitality",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "unstoppable"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 79,
+  "fields": {
+    "title": "basic magazine",
+    "description": "{'Ammo': '+26%', 'Weapon Damage': '+15%', 'IS COMPONENT OF': 'Titanic Magazine'}",
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/basic_magazine.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "basic_magazine"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 80,
+  "fields": {
+    "title": "close quarters",
+    "description": "{'Bullet Resist': '+5%', 'IS COMPONENT OF': 'Point Blank'}",
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/close_quarters.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "close_quarters"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 81,
+  "fields": {
+    "title": "headshot booster",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/headshot_booster.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "headshot_booster"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 82,
+  "fields": {
+    "title": "high velocity mag",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/high-velocity_mag.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "high-velocity_mag"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 83,
+  "fields": {
+    "title": "hollow point ward",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/hollow_point_ward.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "hollow_point_ward"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 84,
+  "fields": {
+    "title": "monster rounds",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/monster_rounds.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "monster_rounds"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 85,
+  "fields": {
+    "title": "rapid rounds",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/rapid_rounds.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "rapid_rounds"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 86,
+  "fields": {
+    "title": "restorative shot",
+    "description": null,
+    "price": 500,
+    "image": "shop/weapon/2024/11/12/500/restorative_shot.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "restorative_shot"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 87,
+  "fields": {
+    "title": "active reload",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/active_reload.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "active_reload"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 88,
+  "fields": {
+    "title": "berserker",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/berserker.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "berserker"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 89,
+  "fields": {
+    "title": "fleetfoot",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/fleetfoot.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "fleetfoot"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 90,
+  "fields": {
+    "title": "kinetic dash",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/kinetic_dash.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "kinetic_dash"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 91,
+  "fields": {
+    "title": "long range",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/long_range.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "long_range"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 92,
+  "fields": {
+    "title": "melee charge",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/melee_charge.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "melee_charge"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 93,
+  "fields": {
+    "title": "mystic shot",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/mystic_shot.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "mystic_shot"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 94,
+  "fields": {
+    "title": "slowing bullets",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/slowing_bullets.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "slowing_bullets"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 95,
+  "fields": {
+    "title": "soul shredder bullets",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/soul_shredder_bullets.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "soul_shredder_bullets"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 96,
+  "fields": {
+    "title": "swift striker",
+    "description": null,
+    "price": 1250,
+    "image": "shop/weapon/2024/11/12/500/swift_striker.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "swift_striker"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 97,
+  "fields": {
+    "title": "alchemical fire",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/alchemical_fire.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "alchemical_fire"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 98,
+  "fields": {
+    "title": "burst fire",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/burst_fire.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "burst_fire"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 99,
+  "fields": {
+    "title": "escalating resilience",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/escalating_resilience.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "escalating_resilience"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 100,
+  "fields": {
+    "title": "headhunter",
+    "description": null,
+    "price": 3500,
+    "image": "shop/weapon/2024/11/12/500/headhunter.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "headhunter"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 101,
+  "fields": {
+    "title": "heroic aura",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/heroic_aura.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "heroic_aura"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 102,
+  "fields": {
+    "title": "hunter's aura",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/hunters_aura.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.321Z",
+    "update_date": "2024-11-13T07:44:10.321Z",
+    "slug": "hunters_aura"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 103,
+  "fields": {
+    "title": "intensifying magazine",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/intensifying_magazine.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "intensifying_magazine"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 104,
+  "fields": {
+    "title": "point blank",
+    "description": null,
+    "price": 3500,
+    "image": "shop/weapon/2024/11/12/500/point_blank.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "point_blank"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 105,
+  "fields": {
+    "title": "pristine emblem",
+    "description": null,
+    "price": 3500,
+    "image": "shop/weapon/2024/11/12/500/pristine_emblem.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "pristine_emblem"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 106,
+  "fields": {
+    "title": "sharpshooter",
+    "description": null,
+    "price": 4250,
+    "image": "shop/weapon/2024/11/12/500/sharpshooter.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "sharpshooter"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 107,
+  "fields": {
+    "title": "tesla bullets",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/tesla_bullets.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "tesla_bullets"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 108,
+  "fields": {
+    "title": "titanic magazine",
+    "description": null,
+    "price": 3500,
+    "image": "shop/weapon/2024/11/12/500/titanic_magazine.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "titanic_magazine"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 109,
+  "fields": {
+    "title": "toxic bullets",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/toxic_bullets.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "toxic_bullets"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 110,
+  "fields": {
+    "title": "warp stone",
+    "description": null,
+    "price": 3000,
+    "image": "shop/weapon/2024/11/12/500/warp_stone.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "warp_stone"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 111,
+  "fields": {
+    "title": "crippling headshot",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/crippling_headshot.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "crippling_headshot"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 112,
+  "fields": {
+    "title": "frenzy",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/frenzy.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "frenzy"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 113,
+  "fields": {
+    "title": "glass cannon",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/glass_cannon.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "glass_cannon"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 114,
+  "fields": {
+    "title": "lucky shot",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/lucky_shot.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "lucky_shot"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 115,
+  "fields": {
+    "title": "ricochet",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/ricochet.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "ricochet"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 116,
+  "fields": {
+    "title": "shadow weave",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/shadow_weave.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "shadow_weave"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 117,
+  "fields": {
+    "title": "silencer",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/silencer.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "silencer"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 118,
+  "fields": {
+    "title": "spiritual overflow",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/spiritual_overflow.png",
+    "category": "weapon",
+    "activity": false,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "spiritual_overflow"
+  }
+},
+{
+  "model": "shop.shop",
+  "pk": 119,
+  "fields": {
+    "title": "vampiric burst",
+    "description": null,
+    "price": 6200,
+    "image": "shop/weapon/2024/11/12/500/vampiric_burst.png",
+    "category": "weapon",
+    "activity": true,
+    "create_date": "2024-11-13T07:44:10.322Z",
+    "update_date": "2024-11-13T07:44:10.322Z",
+    "slug": "vampiric_burst"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -2603,6 +4366,24 @@
       "map"
     ],
     "codename": "view_map"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$wWrYtQy0cFrHn2w1zCLp6Q$7+ZDsMJFZzuD1tGbAeBzDuxBV7XKe0KNQCL1JrY7gcI=",
+    "last_login": "2024-11-11T19:04:58.698Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-11-11T19:03:56.087Z",
+    "groups": [],
+    "user_permissions": []
   }
 }
 ]

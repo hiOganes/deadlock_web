@@ -15,3 +15,8 @@ class Map(models.Model):
         default=None, blank=True, 
         null=True
         )
+    images_city = models.ImageField(
+        upload_to="map/%Y/%m/%d/", 
+        default=None, blank=True, 
+        null=True
+        )

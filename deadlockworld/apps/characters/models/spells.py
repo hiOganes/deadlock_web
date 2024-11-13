@@ -31,6 +31,14 @@ class Spells(models.Model):
     spell_number = models.IntegerField()
 
 
+    class Meta:
+        ordering = ['characters_id']
+
+
+    def __str__(self):
+        return f'{self.title} #{self.spell_number}'
+
+
 
 
 # Spells.objects.bulk_create([
