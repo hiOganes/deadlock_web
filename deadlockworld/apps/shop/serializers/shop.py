@@ -9,4 +9,4 @@ from apps.shop.models.shop import Shop
 class ShopSerializer(serializers.ModelSerializer):
     class Meta:
        model = Shop
-       fields = ['title', 'image']
+       fields = '__all__'

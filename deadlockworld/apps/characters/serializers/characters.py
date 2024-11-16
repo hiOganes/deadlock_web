@@ -9,4 +9,4 @@ from apps.characters.models.characters import Characters
 class CharactersSerializer(serializers.ModelSerializer):
     class Meta:
         model = Characters
-        fields = ['image']
+        fields = '__all__'

@@ -1,8 +1,12 @@
 from django.urls import path
+from rest_framework import routers
 
 # Projects libraries
-from apps.shop.views.shop_list import ShopAPIView
+from apps.shop.views.shop import ShopViewSet
 
-urlpatterns = [
-    path('shop_list/', ShopAPIView.as_view()),
-]
+
+router = routers.DefaultRouter()
+router.register(r'shop', ShopViewSet)
+
+
+urlpatterns = router.urls
