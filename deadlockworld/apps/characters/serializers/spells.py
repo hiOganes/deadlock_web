@@ -8,10 +8,4 @@ from apps.characters.models.spells import Spells
 class SpellsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Spells
-        fields = [
-            'title', 
-            'description', 
-            'description_image', 
-            'cooldown', 
-            'image',
-            ]
+        fields = '__all__'
