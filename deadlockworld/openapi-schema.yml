@@ -1,0 +1,330 @@
+openapi: 3.0.2
+info:
+  title: ''
+  version: ''
+paths:
+  /api/v1/characters/:
+    get:
+      operationId: listCharacters
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Characters'
+          description: ''
+      tags:
+      - api
+  /api/v1/characters/{id}/:
+    get:
+      operationId: retrieveCharacters
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this characters.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Characters'
+          description: ''
+      tags:
+      - api
+  /api/v1/characters/{id}/character_spells/:
+    get:
+      operationId: characterSpellsCharacters
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this characters.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Characters'
+          description: ''
+      tags:
+      - api
+  /api/v1/spells/:
+    get:
+      operationId: listSpells
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Spells'
+          description: ''
+      tags:
+      - api
+  /api/v1/spells/{id}/:
+    get:
+      operationId: retrieveSpells
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this spells.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Spells'
+          description: ''
+      tags:
+      - api
+  /api/v1/shop/:
+    get:
+      operationId: listShops
+      description: ''
+      parameters: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Shop'
+          description: ''
+      tags:
+      - api
+  /api/v1/shop/{id}/:
+    get:
+      operationId: retrieveShop
+      description: ''
+      parameters:
+      - name: id
+        in: path
+        required: true
+        description: A unique integer value identifying this shop.
+        schema:
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Shop'
+          description: ''
+      tags:
+      - api
+components:
+  schemas:
+    Characters:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 255
+        image:
+          type: string
+          format: binary
+          nullable: true
+        story:
+          type: string
+        dps:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        bullet_damage:
+          type: string
+          format: decimal
+          multipleOf: 0.01
+          maximum: 1000
+          minimum: -1000
+        bullet_per_second:
+          type: string
+          format: decimal
+          multipleOf: 0.01
+          maximum: 1000
+          minimum: -1000
+        ammo:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        light_melee:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        heavy_melee:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        max_health:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        health_regen:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        stamina:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        move_speed:
+          type: string
+          format: decimal
+          multipleOf: 0.01
+          maximum: 1000
+          minimum: -1000
+        sprint_speed:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        bullet_resist:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        spirit_resist:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        create_date:
+          type: string
+          format: date-time
+          readOnly: true
+        update_date:
+          type: string
+          format: date-time
+          readOnly: true
+        slug:
+          type: string
+          maxLength: 255
+          pattern: ^[-a-zA-Z0-9_]+$
+      required:
+      - name
+      - story
+      - dps
+      - bullet_damage
+      - bullet_per_second
+      - ammo
+      - light_melee
+      - heavy_melee
+      - max_health
+      - health_regen
+      - stamina
+      - move_speed
+      - sprint_speed
+      - bullet_resist
+      - spirit_resist
+      - slug
+    Spells:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        title:
+          type: string
+          maxLength: 255
+        description:
+          type: string
+        description_image:
+          type: string
+          format: binary
+          nullable: true
+        cooldown:
+          type: string
+          format: decimal
+          multipleOf: 0.01
+          maximum: 1000
+          minimum: -1000
+        activity:
+          type: boolean
+        create_date:
+          type: string
+          format: date-time
+          readOnly: true
+        update_date:
+          type: string
+          format: date-time
+          readOnly: true
+        image:
+          type: string
+          format: binary
+          nullable: true
+        slug:
+          type: string
+          maxLength: 255
+          pattern: ^[-a-zA-Z0-9_]+$
+        spell_number:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        characters:
+          type: integer
+      required:
+      - title
+      - description
+      - cooldown
+      - slug
+      - spell_number
+      - characters
+    Shop:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        title:
+          type: string
+          maxLength: 255
+        description:
+          type: string
+          nullable: true
+        price:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+        image:
+          type: string
+          format: binary
+          nullable: true
+        category:
+          type: string
+          maxLength: 255
+        activity:
+          type: boolean
+        create_date:
+          type: string
+          format: date-time
+          readOnly: true
+        update_date:
+          type: string
+          format: date-time
+          readOnly: true
+        slug:
+          type: string
+          maxLength: 255
+      required:
+      - title
+      - price
+      - category
+      - slug

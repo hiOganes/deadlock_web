@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'apps.characters',
     'apps.shop',
     'apps.map',
+    'rest_framework_swagger'
 ]
 
 MIDDLEWARE = [
