@@ -25,12 +25,21 @@ urlpatterns = [
     path(
         "openapi/",
         get_schema_view(
-            title="Your Project", description="API for all things …", version="1.0.0"
-        ),
+            title="Your Project", 
+            description="API for all things …", 
+            version="1.0.0"
+            ),
         name="api_schema",
-    ),
-    path('swagger-ui/', TemplateView.as_view(template_name='docs.html', extra_context={'schema_url': 'api_schema'}), name='swagger-ui'),
+        ),
+    path(
+        'swagger-ui/', 
+        TemplateView.as_view(
+            template_name='docs.html', 
+            extra_context={'schema_url': 'api_schema'}
+            ), 
+        name='swagger-ui'
+        ),
     path('admin/', admin.site.urls),
-    path('api/v1/', include('apps.characters.urls')),
-    path('api/v1/', include('apps.shop.urls')),
+    path('api/v1/', include('v1.characters.urls')),
+    path('api/v1/', include('v1.shop.urls')),
 ]

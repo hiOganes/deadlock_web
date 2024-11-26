@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'rest_framework',
-    'apps.characters',
-    'apps.shop',
-    'apps.map',
+    'v1.characters',
+    'v1.shop',
+    'v1.map',
     'rest_framework_swagger'
 ]
 
