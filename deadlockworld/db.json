@@ -97,6 +97,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "55pkph6bt0otuxbydoaoeg8nszbkc6c9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEgz7p0328gAzNI1UBS2pXx35WkC13d5J6T82IB9q2EvdMaFmQXJtnp94uQHlQHwDvUW-Op1W1dIh8KP2jnc0N6Xg_3L1Cgl5ElgU4heSVkNMb4LEQkPWWfSDgZgbLN380TKe_AO7Jn0h6iTEJbQvb-AO0ROGk:1tGPPJ:wJ4fNOeraLCxNGx3e7oaXRMTkpltJ2xIE-B-aF0VbmU",
+    "expire_date": "2024-12-11T21:17:09.854Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "xt13jlmoyut4kd2o4h93fxbeuslo1n94",
   "fields": {
     "session_data": ".eJxVjMsOwiAQRf-FtSEgz7p0328gAzNI1UBS2pXx35WkC13d5J6T82IB9q2EvdMaFmQXJtnp94uQHlQHwDvUW-Op1W1dIh8KP2jnc0N6Xg_3L1Cgl5ElgU4heSVkNMb4LEQkPWWfSDgZgbLN380TKe_AO7Jn0h6iTEJbQvb-AO0ROGk:1tAZic:vzYne7PgJGILi8qIZDg8Bvsfdcqm3DQ903HCcXp9N_Y",
@@ -4037,6 +4045,18 @@
   }
 },
 {
+  "model": "map.map",
+  "pk": 12,
+  "fields": {
+    "title": "map",
+    "description": "full_map",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/map.png",
+    "icons": "map/image/2024/11/26/map.png"
+  }
+},
+{
   "model": "map.city",
   "pk": 1,
   "fields": {
@@ -4680,7 +4700,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$870000$wWrYtQy0cFrHn2w1zCLp6Q$7+ZDsMJFZzuD1tGbAeBzDuxBV7XKe0KNQCL1JrY7gcI=",
-    "last_login": "2024-11-11T19:04:58.698Z",
+    "last_login": "2024-11-27T21:17:09.849Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
