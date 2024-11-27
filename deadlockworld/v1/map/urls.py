@@ -5,10 +5,11 @@ from rest_framework.routers import DefaultRouter
 
 # Project libraries
 from v1.map.views.map import MapViewSet
-from v1.map.views.city import CityViewSet
+from v1.map.views.city import CityView
 
 router = DefaultRouter()
 router.register('map', MapViewSet)
-router.register('city', CityViewSet)
 
-urlpatterns = router.urls
+urlpatterns = [
+    path('city/', CityView.as_view()),
+] + router.urls

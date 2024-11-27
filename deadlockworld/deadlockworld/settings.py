@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'v1.map',
     'rest_framework_swagger',
     'graphene_django',
+    'django.contrib.sitemaps',
+    'django.contrib.sites',
 ]
 
 MIDDLEWARE = [
@@ -147,4 +149,6 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+SITE_ID = 1
 

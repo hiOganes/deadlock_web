@@ -18,10 +18,26 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.schemas import get_schema_view
 from django.views.generic import TemplateView
-# Projects libraries
+from django.contrib.sitemaps.views import sitemap
 
+# Projects libraries
+from v1.characters.sitemaps import CharactersSitemap
+from v1.shop.sitemaps import ShopSitemap
+from v1.map.sitemaps import MapSitemap
+
+sitemaps = {
+    'characters': CharactersSitemap, 
+    'shop': ShopSitemap,
+    'map': MapSitemap,
+    }
 
 urlpatterns = [
+    path(
+        "sitemap.xml",
+        sitemap,
+        {"sitemaps": sitemaps},
+        name="django.contrib.sitemaps.views.sitemap",
+        ),
     path(
         "openapi/",
         get_schema_view(

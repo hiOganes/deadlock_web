@@ -1,6 +1,7 @@
 # Standart libraries
 # Other libraries
 from django.db import models
+from django.shortcuts import reverse
 
 # Project libraries
 
@@ -23,6 +24,10 @@ class Shop(models.Model):
     class Meta:
         ordering = ['price']
         indexes = [models.Index(fields=['price'])]
+
+    
+    def get_absolute_url(self):
+        return reverse('shop', kwargs={'category': self.category})
 
 
 

@@ -1,6 +1,7 @@
 # Standart libraries
 # Other libraries
 from django.db import models
+from django.shortcuts import reverse
 
 # Project libraries
 
@@ -21,6 +22,9 @@ class Map(models.Model):
         null=True
         )
     
+
+    def get_absolute_url(self):
+        return reverse('map-detail', kwargs={'pk': self.pk})
 
 # Map.objects.bulk_create([
 #     Map(title='shrine', description="""patron shield""", image='map/image/2024/11/26/shrine.png', icons='map/icons/2024/11/13/shrine.png'),    

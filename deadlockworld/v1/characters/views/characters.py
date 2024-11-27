@@ -19,7 +19,7 @@ class CharactersViewSet(ReadOnlyModelViewSet):
     search_fields = ['name', 'story']
 
     @action(detail=True, methods=['get'])
-    def character_spells(self, request, pk):
+    def spells(self, request, pk):
         spells = Spells.objects.filter(characters_id=pk)
         serializer = SpellsSerializer(spells, many=True)
         return Response(serializer.data)
