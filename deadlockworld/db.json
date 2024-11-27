@@ -80,6 +80,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "map",
+    "model": "city"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "xt13jlmoyut4kd2o4h93fxbeuslo1n94",
   "fields": {
@@ -3889,6 +3897,193 @@
   }
 },
 {
+  "model": "map.map",
+  "pk": 1,
+  "fields": {
+    "title": "shrine",
+    "description": "patron shield",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/shrine.png",
+    "icons": "map/icons/2024/11/13/shrine.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 2,
+  "fields": {
+    "title": "crip1",
+    "description": "level 1 camp",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/crip.png",
+    "icons": "map/icons/2024/11/13/crip1.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 3,
+  "fields": {
+    "title": "crip2",
+    "description": "level 2 camp",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/crip.png",
+    "icons": "map/icons/2024/11/13/crip2.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 4,
+  "fields": {
+    "title": "crip3",
+    "description": "level 3 camp",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/crip.png",
+    "icons": "map/icons/2024/11/13/crip3.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 5,
+  "fields": {
+    "title": "guardian",
+    "description": "first tower",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/guardian.png",
+    "icons": "map/icons/2024/11/13/guardian.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 6,
+  "fields": {
+    "title": "patron",
+    "description": "final tower",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/patron.png",
+    "icons": "map/icons/2024/11/13/patron.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 7,
+  "fields": {
+    "title": "guardians",
+    "description": "third tower",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/guardians.png",
+    "icons": "map/icons/2024/11/13/guardian.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 8,
+  "fields": {
+    "title": "shop",
+    "description": "the curiosity shop",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/shop.png",
+    "icons": "map/icons/2024/11/13/shop.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 9,
+  "fields": {
+    "title": "slot machine",
+    "description": "slot machine",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/slot_machine.png",
+    "icons": "map/icons/2024/11/13/slot_machine.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 10,
+  "fields": {
+    "title": "urn",
+    "description": "urn with souls",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/urn.png",
+    "icons": "map/icons/2024/11/13/urn.png"
+  }
+},
+{
+  "model": "map.map",
+  "pk": 11,
+  "fields": {
+    "title": "walker.png",
+    "description": "second tower",
+    "create_date": "2024-11-26T21:18:27.576Z",
+    "update_date": "2024-11-26T21:18:27.576Z",
+    "image": "map/image/2024/11/26/walker.png",
+    "icons": "map/icons/2024/11/13/walker.png"
+  }
+},
+{
+  "model": "map.city",
+  "pk": 1,
+  "fields": {
+    "title": "crowleys",
+    "image": "map/images_city/2024/11/26/crowleys.png",
+    "create_date": "2024-11-26T20:26:16.266Z",
+    "update_date": "2024-11-26T20:26:16.266Z",
+    "slug": "crowleys"
+  }
+},
+{
+  "model": "map.city",
+  "pk": 2,
+  "fields": {
+    "title": "dark_street",
+    "image": "map/images_city/2024/11/26/dark_street.png",
+    "create_date": "2024-11-26T20:26:16.266Z",
+    "update_date": "2024-11-26T20:26:16.266Z",
+    "slug": "dark_street"
+  }
+},
+{
+  "model": "map.city",
+  "pk": 3,
+  "fields": {
+    "title": "records",
+    "image": "map/images_city/2024/11/26/records.png",
+    "create_date": "2024-11-26T20:26:16.266Z",
+    "update_date": "2024-11-26T20:26:16.266Z",
+    "slug": "records"
+  }
+},
+{
+  "model": "map.city",
+  "pk": 4,
+  "fields": {
+    "title": "station",
+    "image": "map/images_city/2024/11/26/station.png",
+    "create_date": "2024-11-26T20:26:16.266Z",
+    "update_date": "2024-11-26T20:26:16.266Z",
+    "slug": "station"
+  }
+},
+{
+  "model": "map.city",
+  "pk": 5,
+  "fields": {
+    "title": "table",
+    "image": "map/images_city/2024/11/26/table.png",
+    "create_date": "2024-11-26T20:26:16.266Z",
+    "update_date": "2024-11-26T20:26:16.266Z",
+    "slug": "table"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -4366,6 +4561,54 @@
       "map"
     ],
     "codename": "view_map"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add city",
+    "content_type": [
+      "map",
+      "city"
+    ],
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change city",
+    "content_type": [
+      "map",
+      "city"
+    ],
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete city",
+    "content_type": [
+      "map",
+      "city"
+    ],
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view city",
+    "content_type": [
+      "map",
+      "city"
+    ],
+    "codename": "view_city"
   }
 },
 {

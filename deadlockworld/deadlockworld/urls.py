@@ -34,7 +34,7 @@ urlpatterns = [
     path(
         'swagger-ui/', 
         TemplateView.as_view(
-            template_name='docs.html', 
+            template_name='schema.html', 
             extra_context={'schema_url': 'api_schema'}
             ), 
         name='swagger-ui'
@@ -42,4 +42,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('v1.characters.urls')),
     path('api/v1/', include('v1.shop.urls')),
+    path('api/v1/', include('v1.map.urls')),
 ]

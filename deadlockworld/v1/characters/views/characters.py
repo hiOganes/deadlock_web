@@ -3,6 +3,7 @@
 from rest_framework.decorators import action
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
+from rest_framework import filters
 
 # Project libraries
 from v1.characters.models.characters import Characters
@@ -14,6 +15,8 @@ from v1.characters.serializers.spells import SpellsSerializer
 class CharactersViewSet(ReadOnlyModelViewSet):
     queryset = Characters.objects.all()
     serializer_class = CharactersSerializer
+    filter_backends = [filters.SearchFilter]
+    search_fields = ['name', 'story']
 
     @action(detail=True, methods=['get'])
     def character_spells(self, request, pk):

@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'v1.characters',
     'v1.shop',
     'v1.map',
-    'rest_framework_swagger'
+    'rest_framework_swagger',
+    'graphene_django',
 ]
 
 MIDDLEWARE = [
@@ -137,7 +138,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / 'static']
+
 
 MEDIA_ROOT = BASE_DIR / 'media'
 MEDIA_URL = '/media/'
@@ -146,3 +147,4 @@ MEDIA_URL = '/media/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
