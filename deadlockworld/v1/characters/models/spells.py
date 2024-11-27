@@ -33,6 +33,7 @@ class Spells(models.Model):
 
     class Meta:
         ordering = ['characters_id']
+        verbose_name_plural = 'Spells'
 
 
     def __str__(self):

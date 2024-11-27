@@ -12,7 +12,9 @@ class City(models.Model):
     create_date = models.DateTimeField(auto_now_add=True)
     update_date = models.DateTimeField(auto_now=True)
     slug = models.SlugField(unique=True)
-
+ 
+    class Meta:
+        verbose_name_plural = 'City'
 
 # City.objects.bulk_create([
 #     City(title='crowleys', image='map/images_city/2024/11/26/crowleys.png', slug='crowleys'),        

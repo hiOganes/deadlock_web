@@ -20,6 +20,7 @@ class CharactersViewSet(ReadOnlyModelViewSet):
 
     @action(detail=True, methods=['get'])
     def spells(self, request, pk):
+        print(request.version)
         spells = Spells.objects.filter(characters_id=pk)
         serializer = SpellsSerializer(spells, many=True)
         return Response(serializer.data)

@@ -24,6 +24,7 @@ class Shop(models.Model):
     class Meta:
         ordering = ['price']
         indexes = [models.Index(fields=['price'])]
+        verbose_name_plural = 'Shop'
 
     
     def get_absolute_url(self):

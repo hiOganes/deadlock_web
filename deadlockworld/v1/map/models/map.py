@@ -22,6 +22,8 @@ class Map(models.Model):
         null=True
         )
     
+    class Meta:
+        verbose_name_plural = 'Map'
 
     def get_absolute_url(self):
         return reverse('map-detail', kwargs={'pk': self.pk})

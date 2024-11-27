@@ -35,6 +35,7 @@ class Characters(models.Model):
     class Meta:
         ordering = ['name']
         indexes = [models.Index(fields=['name'])]
+        verbose_name_plural = 'Characters'
 
     
     def __str__(self):
