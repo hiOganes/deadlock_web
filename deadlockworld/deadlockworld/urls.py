@@ -17,27 +17,35 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.schemas import get_schema_view
+from rest_framework.routers import DefaultRouter
 from django.views.generic import TemplateView
 from django.contrib.sitemaps.views import sitemap
 
 # Projects libraries
-from v1.characters.sitemaps import CharactersSitemap
-from v1.shop.sitemaps import ShopSitemap
-from v1.map.sitemaps import MapSitemap
+from deadlockworld.sitemaps import sitemaps
+from v1.characters.urls import router as v1_characters_and_spells_router
+from v1.map.urls import router as v1_map_and_city_router
+from v1.shop.urls import router as v1_shop_router
 
-sitemaps = {
-    'characters': CharactersSitemap, 
-    'shop': ShopSitemap,
-    'map': MapSitemap,
-    }
+
+v1_router = DefaultRouter()
+v1_router.registry.extend(v1_characters_and_spells_router.registry)
+v1_router.registry.extend(v1_map_and_city_router.registry)
+v1_router.registry.extend(v1_shop_router.registry)
+
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
+
+    path('api/v1/', include((v1_router.urls, 'api'), namespace='v1')),
+
     path(
-        "sitemap.xml",
-        sitemap,
-        {"sitemaps": sitemaps},
+        "sitemap.xml", 
+        sitemap, 
+        {"sitemaps": sitemaps}, 
         name="django.contrib.sitemaps.views.sitemap",
         ),
+        
     path(
         "openapi/",
         get_schema_view(
@@ -55,8 +63,4 @@ urlpatterns = [
             ), 
         name='swagger-ui'
         ),
-    path('admin/', admin.site.urls),
-    path('api/v1/', include('v1.characters.urls')),
-    path('api/v1/', include('v1.shop.urls')),
-    path('api/v1/', include('v1.map.urls')),
 ]

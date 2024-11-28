@@ -5,13 +5,6 @@ from rest_framework import routers
 from v1.shop.views.shop import ShopView
 
 
-# router = routers.DefaultRouter()
-# router.register(r'shop', ShopViewSet)
+router = routers.DefaultRouter()
+router.register(r'shop', ShopView, basename='shop')
 
-
-# urlpatterns = router.urls
-
-
-urlpatterns = [
-    path('shop/<slug:category>/', ShopView.as_view(), name='shop'),
-]
