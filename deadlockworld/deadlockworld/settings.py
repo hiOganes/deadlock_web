@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,13 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_extensions',
     'rest_framework',
-    'v1.characters',
-    'v1.shop',
-    'v1.map',
     'rest_framework_swagger',
     'graphene_django',
     'django.contrib.sitemaps',
-    'django.contrib.sites',
+    # api_v1
+    'v1.characters',
+    'v1.shop',
+    'v1.map',
 ]
 
 MIDDLEWARE = [

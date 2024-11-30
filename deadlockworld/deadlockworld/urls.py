@@ -33,7 +33,6 @@ v1_router.registry.extend(v1_characters_and_spells_router.registry)
 v1_router.registry.extend(v1_map_and_city_router.registry)
 v1_router.registry.extend(v1_shop_router.registry)
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
 
